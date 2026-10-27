@@ -1,0 +1,173 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 400,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/ict_activities_by_state_2025.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "value": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.activity != 'Using social networks'"
+    },
+    {
+      "calculate": "datum.state == 'Malaysia' ? datum.value : null",
+      "as": "nat"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "max",
+          "field": "nat",
+          "as": "national"
+        }
+      ],
+      "groupby": [
+        "activity"
+      ]
+    },
+    {
+      "calculate": "datum.activity == 'Buying through e-commerce' ? datum.value : null",
+      "as": "buy"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "max",
+          "field": "buy",
+          "as": "buykey"
+        }
+      ],
+      "groupby": [
+        "state"
+      ]
+    },
+    {
+      "filter": "datum.state != 'Malaysia'"
+    },
+    {
+      "calculate": "datum.value - datum.national",
+      "as": "diff"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "state",
+      "type": "nominal",
+      "sort": {
+        "field": "buykey",
+        "op": "max",
+        "order": "descending"
+      },
+      "title": null,
+      "axis": {
+        "orient": "top",
+        "labelAngle": -45,
+        "labelLimit": 120
+      }
+    },
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "sort": {
+        "field": "national",
+        "op": "max",
+        "order": "descending"
+      },
+      "title": null,
+      "axis": {
+        "labelLimit": 260
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#ffffff",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "diff",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -20,
+              -10,
+              0,
+              10,
+              20
+            ],
+            "range": [
+              "#930031",
+              "#f0d48a",
+              "#f5f1e8",
+              "#9fb6dc",
+              "#086288"
+            ],
+            "clamp": true
+          },
+          "legend": {
+            "title": "Compared with Malaysia (points)",
+            "orient": "bottom",
+            "gradientLength": 280,
+            "titleLimit": 320
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "activity",
+            "title": "Activity"
+          },
+          {
+            "field": "value",
+            "title": "% of internet users"
+          },
+          {
+            "field": "national",
+            "title": "Malaysia (%)"
+          },
+          {
+            "field": "diff",
+            "title": "Difference (points)",
+            "format": "+.1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "field": "value",
+          "type": "quantitative",
+          "format": ".0f"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.diff > 12",
+            "value": "white"
+          },
+          "value": "#1b2540"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+age_group,activity,value
+Total,Finding information about goods or services,94.6
+15-19,Finding information about goods or services,90.6
+20-24,Finding information about goods or services,96.6
+25-29,Finding information about goods or services,97.6
+30-34,Finding information about goods or services,95.8
+35-39,Finding information about goods or services,96.7
+40-44,Finding information about goods or services,97.0
+45-49,Finding information about goods or services,96.0
+50-54,Finding information about goods or services,95.7
+55-59,Finding information about goods or services,94.4
+60+,Finding information about goods or services,87.7
+Total,Using social networks,99.7
+15-19,Using social networks,99.4
+20-24,Using social networks,100.0
+25-29,Using social networks,99.9
+30-34,Using social networks,100.0
+35-39,Using social networks,99.9
+40-44,Using social networks,99.9
+45-49,Using social networks,99.9
+50-54,Using social networks,99.8
+55-59,Using social networks,99.9
+60+,Using social networks,98.6
+Total,Booking travel or accommodation,38.6
+15-19,Booking travel or accommodation,20.3
+20-24,Booking travel or accommodation,42.7
+25-29,Booking travel or accommodation,44.9
+30-34,Booking travel or accommodation,47.6
+35-39,Booking travel or accommodation,47.5
+40-44,Booking travel or accommodation,44.3
+45-49,Booking travel or accommodation,41.8
+50-54,Booking travel or accommodation,40.3
+55-59,Booking travel or accommodation,38.5
+60+,Booking travel or accommodation,21.5
+Total,Selling goods or services (not e-commerce),30.6
+15-19,Selling goods or services (not e-commerce),21.3
+20-24,Selling goods or services (not e-commerce),34.1
+25-29,Selling goods or services (not e-commerce),36.5
+30-34,Selling goods or services (not e-commerce),35.6
+35-39,Selling goods or services (not e-commerce),37.4
+40-44,Selling goods or services (not e-commerce),36.2
+45-49,Selling goods or services (not e-commerce),36.8
+50-54,Selling goods or services (not e-commerce),30.2
+55-59,Selling goods or services (not e-commerce),25.5
+60+,Selling goods or services (not e-commerce),14.2
+Total,Ordering goods or services (not e-commerce),52.1
+15-19,Ordering goods or services (not e-commerce),32.9
+20-24,Ordering goods or services (not e-commerce),59.6
+25-29,Ordering goods or services (not e-commerce),58.7
+30-34,Ordering goods or services (not e-commerce),59.1
+35-39,Ordering goods or services (not e-commerce),60.0
+40-44,Ordering goods or services (not e-commerce),59.3
+45-49,Ordering goods or services (not e-commerce),56.4
+50-54,Ordering goods or services (not e-commerce),53.4
+55-59,Ordering goods or services (not e-commerce),51.2
+60+,Ordering goods or services (not e-commerce),33.8
+Total,Internet banking,80.0
+15-19,Internet banking,49.6
+20-24,Internet banking,89.8
+25-29,Internet banking,87.1
+30-34,Internet banking,88.7
+35-39,Internet banking,90.0
+40-44,Internet banking,89.5
+45-49,Internet banking,88.6
+50-54,Internet banking,86.4
+55-59,Internet banking,81.5
+60+,Internet banking,56.4
+Total,Watching TV online,71.0
+15-19,Watching TV online,70.8
+20-24,Watching TV online,78.8
+25-29,Watching TV online,73.4
+30-34,Watching TV online,76.1
+35-39,Watching TV online,75.5
+40-44,Watching TV online,73.9
+45-49,Watching TV online,70.0
+50-54,Watching TV online,71.0
+55-59,Watching TV online,65.1
+60+,Watching TV online,55.2
+Total,"Downloading pictures, films or games",94.8
+15-19,"Downloading pictures, films or games",96.1
+20-24,"Downloading pictures, films or games",98.3
+25-29,"Downloading pictures, films or games",98.5
+30-34,"Downloading pictures, films or games",96.7
+35-39,"Downloading pictures, films or games",97.2
+40-44,"Downloading pictures, films or games",96.8
+45-49,"Downloading pictures, films or games",95.4
+50-54,"Downloading pictures, films or games",94.3
+55-59,"Downloading pictures, films or games",93.0
+60+,"Downloading pictures, films or games",83.5
+Total,Buying through e-commerce,77.8
+15-19,Buying through e-commerce,62.8
+20-24,Buying through e-commerce,86.8
+25-29,Buying through e-commerce,85.7
+30-34,Buying through e-commerce,85.6
+35-39,Buying through e-commerce,86.7
+40-44,Buying through e-commerce,87.7
+45-49,Buying through e-commerce,83.8
+50-54,Buying through e-commerce,79.6
+55-59,Buying through e-commerce,74.6
+60+,Buying through e-commerce,50.5
+Total,Selling through e-commerce,31.0
+15-19,Selling through e-commerce,20.1
+20-24,Selling through e-commerce,35.2
+25-29,Selling through e-commerce,36.3
+30-34,Selling through e-commerce,34.8
+35-39,Selling through e-commerce,36.5
+40-44,Selling through e-commerce,38.3
+45-49,Selling through e-commerce,36.5
+50-54,Selling through e-commerce,35.8
+55-59,Selling through e-commerce,30.0
+60+,Selling through e-commerce,12.6

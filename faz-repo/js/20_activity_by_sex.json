@@ -1,0 +1,148 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 400,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/ict_activities_by_sex_2025.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "value": "number"
+      }
+    }
+  },
+
+  "transform": [
+    {
+      "filter": "datum.sex != 'Total' && datum.activity != 'Using social networks'"
+    },
+    {
+      "calculate": "datum.sex == 'Male' ? 'Men' : 'Women'",
+      "as": "group"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "mean",
+          "field": "value",
+          "as": "avg"
+        }
+      ],
+      "groupby": [
+        "activity"
+      ]
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "sort": {
+        "field": "avg",
+        "op": "max",
+        "order": "descending"
+      },
+      "title": null,
+      "axis": {
+        "labelLimit": 260
+      }
+    }
+  },
+  "layer": [
+    {
+      "transform": [
+        {
+          "pivot": "group",
+          "value": "value",
+          "groupby": [
+            "activity",
+            "avg"
+          ]
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "color": "#c9ccd1",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "Men",
+          "type": "quantitative"
+        },
+        "x2": {
+          "field": "Women"
+        }
+      },
+      "params": [
+        {
+          "name": "zoomPan",
+          "select": {
+            "type": "interval",
+            "encodings": [
+              "x"
+            ]
+          },
+          "bind": "scales"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 90,
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "title": "% of internet users, 2025"
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Men",
+              "Women"
+            ],
+            "range": [
+              "#73A5CA",
+              "#930031"
+            ]
+          },
+          
+          "legend": {
+            "orient": "top",
+            "title": null
+          }
+        },
+        "tooltip": [
+          {
+            "field": "activity",
+            "title": "Activity"
+          },
+          {
+            "field": "group",
+            "title": "Group"
+          },
+          {
+            "field": "value",
+            "title": "%"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+state,activity,value
+Malaysia,Finding information about goods or services,94.6
+Johor,Finding information about goods or services,98.5
+Kedah,Finding information about goods or services,95.1
+Kelantan,Finding information about goods or services,93.0
+Melaka,Finding information about goods or services,95.8
+Negeri Sembilan,Finding information about goods or services,93.8
+Pahang,Finding information about goods or services,93.0
+Pulau Pinang,Finding information about goods or services,95.8
+Perak,Finding information about goods or services,93.6
+Perlis,Finding information about goods or services,94.2
+Selangor,Finding information about goods or services,96.1
+Terengganu,Finding information about goods or services,93.2
+Sabah,Finding information about goods or services,91.2
+Sarawak,Finding information about goods or services,90.1
+W.P. Kuala Lumpur,Finding information about goods or services,95.8
+W.P. Labuan,Finding information about goods or services,94.9
+W.P. Putrajaya,Finding information about goods or services,95.5
+Malaysia,Using social networks,99.7
+Johor,Using social networks,99.7
+Kedah,Using social networks,99.9
+Kelantan,Using social networks,99.9
+Melaka,Using social networks,99.7
+Negeri Sembilan,Using social networks,99.9
+Pahang,Using social networks,99.6
+Pulau Pinang,Using social networks,100.0
+Perak,Using social networks,99.3
+Perlis,Using social networks,99.7
+Selangor,Using social networks,99.7
+Terengganu,Using social networks,99.9
+Sabah,Using social networks,99.5
+Sarawak,Using social networks,99.3
+W.P. Kuala Lumpur,Using social networks,100.0
+W.P. Labuan,Using social networks,99.9
+W.P. Putrajaya,Using social networks,100.0
+Malaysia,Booking travel or accommodation,38.6
+Johor,Booking travel or accommodation,39.3
+Kedah,Booking travel or accommodation,38.8
+Kelantan,Booking travel or accommodation,35.2
+Melaka,Booking travel or accommodation,37.9
+Negeri Sembilan,Booking travel or accommodation,36.1
+Pahang,Booking travel or accommodation,37.3
+Pulau Pinang,Booking travel or accommodation,38.8
+Perak,Booking travel or accommodation,38.4
+Perlis,Booking travel or accommodation,38.1
+Selangor,Booking travel or accommodation,39.3
+Terengganu,Booking travel or accommodation,38.2
+Sabah,Booking travel or accommodation,38.9
+Sarawak,Booking travel or accommodation,38.4
+W.P. Kuala Lumpur,Booking travel or accommodation,39.6
+W.P. Labuan,Booking travel or accommodation,38.6
+W.P. Putrajaya,Booking travel or accommodation,40.0
+Malaysia,Selling goods or services (not e-commerce),30.6
+Johor,Selling goods or services (not e-commerce),30.1
+Kedah,Selling goods or services (not e-commerce),30.7
+Kelantan,Selling goods or services (not e-commerce),29.8
+Melaka,Selling goods or services (not e-commerce),30.2
+Negeri Sembilan,Selling goods or services (not e-commerce),30.5
+Pahang,Selling goods or services (not e-commerce),30.8
+Pulau Pinang,Selling goods or services (not e-commerce),30.9
+Perak,Selling goods or services (not e-commerce),29.3
+Perlis,Selling goods or services (not e-commerce),29.0
+Selangor,Selling goods or services (not e-commerce),31.8
+Terengganu,Selling goods or services (not e-commerce),29.4
+Sabah,Selling goods or services (not e-commerce),29.7
+Sarawak,Selling goods or services (not e-commerce),30.7
+W.P. Kuala Lumpur,Selling goods or services (not e-commerce),31.5
+W.P. Labuan,Selling goods or services (not e-commerce),29.6
+W.P. Putrajaya,Selling goods or services (not e-commerce),32.0
+Malaysia,Ordering goods or services (not e-commerce),52.1
+Johor,Ordering goods or services (not e-commerce),54.3
+Kedah,Ordering goods or services (not e-commerce),48.1
+Kelantan,Ordering goods or services (not e-commerce),40.0
+Melaka,Ordering goods or services (not e-commerce),52.3
+Negeri Sembilan,Ordering goods or services (not e-commerce),48.1
+Pahang,Ordering goods or services (not e-commerce),41.8
+Pulau Pinang,Ordering goods or services (not e-commerce),54.1
+Perak,Ordering goods or services (not e-commerce),42.4
+Perlis,Ordering goods or services (not e-commerce),42.1
+Selangor,Ordering goods or services (not e-commerce),69.8
+Terengganu,Ordering goods or services (not e-commerce),71.7
+Sabah,Ordering goods or services (not e-commerce),41.9
+Sarawak,Ordering goods or services (not e-commerce),29.5
+W.P. Kuala Lumpur,Ordering goods or services (not e-commerce),51.9
+W.P. Labuan,Ordering goods or services (not e-commerce),40.7
+W.P. Putrajaya,Ordering goods or services (not e-commerce),74.0
+Malaysia,Internet banking,80.0
+Johor,Internet banking,77.1
+Kedah,Internet banking,75.2
+Kelantan,Internet banking,74.5
+Melaka,Internet banking,75.7
+Negeri Sembilan,Internet banking,74.7
+Pahang,Internet banking,74.8
+Pulau Pinang,Internet banking,84.9
+Perak,Internet banking,73.0
+Perlis,Internet banking,73.4
+Selangor,Internet banking,91.0
+Terengganu,Internet banking,84.9
+Sabah,Internet banking,72.6
+Sarawak,Internet banking,72.1
+W.P. Kuala Lumpur,Internet banking,87.1
+W.P. Labuan,Internet banking,88.7
+W.P. Putrajaya,Internet banking,92.4
+Malaysia,Watching TV online,71.0
+Johor,Watching TV online,66.1
+Kedah,Watching TV online,69.8
+Kelantan,Watching TV online,64.7
+Melaka,Watching TV online,79.2
+Negeri Sembilan,Watching TV online,72.0
+Pahang,Watching TV online,63.3
+Pulau Pinang,Watching TV online,79.3
+Perak,Watching TV online,69.1
+Perlis,Watching TV online,73.1
+Selangor,Watching TV online,80.1
+Terengganu,Watching TV online,63.9
+Sabah,Watching TV online,63.7
+Sarawak,Watching TV online,62.5
+W.P. Kuala Lumpur,Watching TV online,75.3
+W.P. Labuan,Watching TV online,77.9
+W.P. Putrajaya,Watching TV online,83.3
+Malaysia,"Downloading pictures, films or games",94.8
+Johor,"Downloading pictures, films or games",94.3
+Kedah,"Downloading pictures, films or games",98.6
+Kelantan,"Downloading pictures, films or games",92.5
+Melaka,"Downloading pictures, films or games",96.2
+Negeri Sembilan,"Downloading pictures, films or games",97.2
+Pahang,"Downloading pictures, films or games",90.0
+Pulau Pinang,"Downloading pictures, films or games",94.5
+Perak,"Downloading pictures, films or games",88.1
+Perlis,"Downloading pictures, films or games",87.6
+Selangor,"Downloading pictures, films or games",98.3
+Terengganu,"Downloading pictures, films or games",98.7
+Sabah,"Downloading pictures, films or games",96.4
+Sarawak,"Downloading pictures, films or games",87.9
+W.P. Kuala Lumpur,"Downloading pictures, films or games",95.1
+W.P. Labuan,"Downloading pictures, films or games",100.0
+W.P. Putrajaya,"Downloading pictures, films or games",99.3
+Malaysia,Buying through e-commerce,77.8
+Johor,Buying through e-commerce,70.8
+Kedah,Buying through e-commerce,76.9
+Kelantan,Buying through e-commerce,71.6
+Melaka,Buying through e-commerce,79.1
+Negeri Sembilan,Buying through e-commerce,75.0
+Pahang,Buying through e-commerce,72.8
+Pulau Pinang,Buying through e-commerce,80.6
+Perak,Buying through e-commerce,75.3
+Perlis,Buying through e-commerce,77.7
+Selangor,Buying through e-commerce,88.8
+Terengganu,Buying through e-commerce,73.3
+Sabah,Buying through e-commerce,72.0
+Sarawak,Buying through e-commerce,72.1
+W.P. Kuala Lumpur,Buying through e-commerce,81.3
+W.P. Labuan,Buying through e-commerce,94.3
+W.P. Putrajaya,Buying through e-commerce,97.8
+Malaysia,Selling through e-commerce,31.0
+Johor,Selling through e-commerce,35.4
+Kedah,Selling through e-commerce,31.1
+Kelantan,Selling through e-commerce,26.7
+Melaka,Selling through e-commerce,35.0
+Negeri Sembilan,Selling through e-commerce,32.8
+Pahang,Selling through e-commerce,28.4
+Pulau Pinang,Selling through e-commerce,35.2
+Perak,Selling through e-commerce,21.4
+Perlis,Selling through e-commerce,25.5
+Selangor,Selling through e-commerce,37.8
+Terengganu,Selling through e-commerce,23.3
+Sabah,Selling through e-commerce,23.9
+Sarawak,Selling through e-commerce,21.5
+W.P. Kuala Lumpur,Selling through e-commerce,36.7
+W.P. Labuan,Selling through e-commerce,26.4
+W.P. Putrajaya,Selling through e-commerce,27.3

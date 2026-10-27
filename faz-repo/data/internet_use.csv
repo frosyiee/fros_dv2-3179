@@ -1,0 +1,393 @@
+date,state,strata,proportion
+2018-01-01,Malaysia,overall,81.2
+2019-01-01,Malaysia,overall,84.2
+2020-01-01,Malaysia,overall,89.6
+2021-01-01,Malaysia,overall,96.8
+2022-01-01,Malaysia,overall,97.4
+2023-01-01,Malaysia,overall,97.7
+2024-01-01,Malaysia,overall,98.0
+2025-01-01,Malaysia,overall,98.3
+2018-01-01,Malaysia,urban,84.9
+2019-01-01,Malaysia,urban,87.5
+2020-01-01,Malaysia,urban,92.4
+2021-01-01,Malaysia,urban,97.7
+2022-01-01,Malaysia,urban,98.3
+2023-01-01,Malaysia,urban,98.6
+2024-01-01,Malaysia,urban,99.0
+2025-01-01,Malaysia,urban,99.2
+2018-01-01,Malaysia,rural,69.4
+2019-01-01,Malaysia,rural,72.7
+2020-01-01,Malaysia,rural,79.4
+2021-01-01,Malaysia,rural,93.5
+2022-01-01,Malaysia,rural,94.5
+2023-01-01,Malaysia,rural,95.0
+2024-01-01,Malaysia,rural,95.3
+2025-01-01,Malaysia,rural,95.7
+2018-01-01,Johor,overall,83.2
+2019-01-01,Johor,overall,89.6
+2020-01-01,Johor,overall,93.9
+2021-01-01,Johor,overall,98.1
+2022-01-01,Johor,overall,98.3
+2023-01-01,Johor,overall,98.6
+2024-01-01,Johor,overall,98.9
+2025-01-01,Johor,overall,98.9
+2018-01-01,Johor,urban,84.6
+2019-01-01,Johor,urban,91.7
+2020-01-01,Johor,urban,95.3
+2021-01-01,Johor,urban,98.6
+2022-01-01,Johor,urban,99.0
+2023-01-01,Johor,urban,99.2
+2024-01-01,Johor,urban,99.5
+2025-01-01,Johor,urban,99.6
+2018-01-01,Johor,rural,78.3
+2019-01-01,Johor,rural,82.2
+2020-01-01,Johor,rural,89.2
+2021-01-01,Johor,rural,96.4
+2022-01-01,Johor,rural,96.3
+2023-01-01,Johor,rural,96.6
+2024-01-01,Johor,rural,97.1
+2025-01-01,Johor,rural,96.9
+2018-01-01,Kedah,overall,72.3
+2019-01-01,Kedah,overall,75.6
+2020-01-01,Kedah,overall,82.9
+2021-01-01,Kedah,overall,95.5
+2022-01-01,Kedah,overall,96.5
+2023-01-01,Kedah,overall,96.9
+2024-01-01,Kedah,overall,97.4
+2025-01-01,Kedah,overall,97.5
+2018-01-01,Kedah,urban,75.9
+2019-01-01,Kedah,urban,78.5
+2020-01-01,Kedah,urban,84.8
+2021-01-01,Kedah,urban,96.6
+2022-01-01,Kedah,urban,97.5
+2023-01-01,Kedah,urban,97.8
+2024-01-01,Kedah,urban,98.3
+2025-01-01,Kedah,urban,98.4
+2018-01-01,Kedah,rural,63.1
+2019-01-01,Kedah,rural,68.0
+2020-01-01,Kedah,rural,77.8
+2021-01-01,Kedah,rural,92.4
+2022-01-01,Kedah,rural,94.8
+2023-01-01,Kedah,rural,95.1
+2024-01-01,Kedah,rural,95.6
+2025-01-01,Kedah,rural,95.7
+2018-01-01,Kelantan,overall,71.3
+2019-01-01,Kelantan,overall,73.9
+2020-01-01,Kelantan,overall,81.6
+2021-01-01,Kelantan,overall,95.9
+2022-01-01,Kelantan,overall,96.3
+2023-01-01,Kelantan,overall,96.6
+2024-01-01,Kelantan,overall,97.3
+2025-01-01,Kelantan,overall,97.3
+2018-01-01,Kelantan,urban,77.9
+2019-01-01,Kelantan,urban,77.9
+2020-01-01,Kelantan,urban,85.3
+2021-01-01,Kelantan,urban,96.9
+2022-01-01,Kelantan,urban,97.5
+2023-01-01,Kelantan,urban,97.9
+2024-01-01,Kelantan,urban,98.6
+2025-01-01,Kelantan,urban,98.6
+2018-01-01,Kelantan,rural,64.7
+2019-01-01,Kelantan,rural,69.1
+2020-01-01,Kelantan,rural,77.2
+2021-01-01,Kelantan,rural,94.7
+2022-01-01,Kelantan,rural,95.3
+2023-01-01,Kelantan,rural,95.6
+2024-01-01,Kelantan,rural,96.2
+2025-01-01,Kelantan,rural,96.3
+2018-01-01,Melaka,overall,85.4
+2019-01-01,Melaka,overall,85.6
+2020-01-01,Melaka,overall,92.2
+2021-01-01,Melaka,overall,96.4
+2022-01-01,Melaka,overall,97.7
+2023-01-01,Melaka,overall,98.0
+2024-01-01,Melaka,overall,98.5
+2025-01-01,Melaka,overall,98.5
+2018-01-01,Melaka,urban,85.9
+2019-01-01,Melaka,urban,85.7
+2020-01-01,Melaka,urban,92.3
+2021-01-01,Melaka,urban,96.5
+2022-01-01,Melaka,urban,97.8
+2023-01-01,Melaka,urban,98.1
+2024-01-01,Melaka,urban,98.5
+2025-01-01,Melaka,urban,98.5
+2018-01-01,Melaka,rural,77.6
+2019-01-01,Melaka,rural,84.5
+2020-01-01,Melaka,rural,90.8
+2021-01-01,Melaka,rural,95.6
+2022-01-01,Melaka,rural,97.3
+2023-01-01,Melaka,rural,97.5
+2024-01-01,Melaka,rural,98.1
+2025-01-01,Melaka,rural,98.1
+2018-01-01,Negeri Sembilan,overall,80.3
+2019-01-01,Negeri Sembilan,overall,81.3
+2020-01-01,Negeri Sembilan,overall,88.9
+2021-01-01,Negeri Sembilan,overall,95.5
+2022-01-01,Negeri Sembilan,overall,98.0
+2023-01-01,Negeri Sembilan,overall,98.4
+2024-01-01,Negeri Sembilan,overall,98.6
+2025-01-01,Negeri Sembilan,overall,98.7
+2018-01-01,Negeri Sembilan,urban,83.1
+2019-01-01,Negeri Sembilan,urban,83.3
+2020-01-01,Negeri Sembilan,urban,92.7
+2021-01-01,Negeri Sembilan,urban,97.1
+2022-01-01,Negeri Sembilan,urban,99.2
+2023-01-01,Negeri Sembilan,urban,99.6
+2024-01-01,Negeri Sembilan,urban,99.7
+2025-01-01,Negeri Sembilan,urban,99.8
+2018-01-01,Negeri Sembilan,rural,72.3
+2019-01-01,Negeri Sembilan,rural,75.5
+2020-01-01,Negeri Sembilan,rural,77.4
+2021-01-01,Negeri Sembilan,rural,90.8
+2022-01-01,Negeri Sembilan,rural,95.3
+2023-01-01,Negeri Sembilan,rural,95.7
+2024-01-01,Negeri Sembilan,rural,96.4
+2025-01-01,Negeri Sembilan,rural,96.3
+2018-01-01,Pahang,overall,79.1
+2019-01-01,Pahang,overall,81.8
+2020-01-01,Pahang,overall,88.8
+2021-01-01,Pahang,overall,94.9
+2022-01-01,Pahang,overall,96.5
+2023-01-01,Pahang,overall,97.0
+2024-01-01,Pahang,overall,97.3
+2025-01-01,Pahang,overall,97.4
+2018-01-01,Pahang,urban,85.5
+2019-01-01,Pahang,urban,87.1
+2020-01-01,Pahang,urban,93.3
+2021-01-01,Pahang,urban,96.8
+2022-01-01,Pahang,urban,97.5
+2023-01-01,Pahang,urban,97.9
+2024-01-01,Pahang,urban,98.3
+2025-01-01,Pahang,urban,98.3
+2018-01-01,Pahang,rural,70.7
+2019-01-01,Pahang,rural,73.5
+2020-01-01,Pahang,rural,81.6
+2021-01-01,Pahang,rural,92.2
+2022-01-01,Pahang,rural,95.3
+2023-01-01,Pahang,rural,96.0
+2024-01-01,Pahang,rural,96.3
+2025-01-01,Pahang,rural,96.5
+2018-01-01,Perak,overall,74.5
+2019-01-01,Perak,overall,80.6
+2020-01-01,Perak,overall,87.5
+2021-01-01,Perak,overall,95.7
+2022-01-01,Perak,overall,96.1
+2023-01-01,Perak,overall,96.3
+2024-01-01,Perak,overall,96.7
+2025-01-01,Perak,overall,97.2
+2018-01-01,Perak,urban,76.7
+2019-01-01,Perak,urban,82.4
+2020-01-01,Perak,urban,88.6
+2021-01-01,Perak,urban,95.9
+2022-01-01,Perak,urban,96.4
+2023-01-01,Perak,urban,96.6
+2024-01-01,Perak,urban,97.0
+2025-01-01,Perak,urban,97.4
+2018-01-01,Perak,rural,67.6
+2019-01-01,Perak,rural,74.1
+2020-01-01,Perak,rural,82.9
+2021-01-01,Perak,rural,94.6
+2022-01-01,Perak,rural,95.3
+2023-01-01,Perak,rural,95.6
+2024-01-01,Perak,rural,96.0
+2025-01-01,Perak,rural,96.5
+2018-01-01,Perlis,overall,83.4
+2019-01-01,Perlis,overall,83.8
+2020-01-01,Perlis,overall,90.2
+2021-01-01,Perlis,overall,95.0
+2022-01-01,Perlis,overall,95.5
+2023-01-01,Perlis,overall,96.0
+2024-01-01,Perlis,overall,96.6
+2025-01-01,Perlis,overall,97.1
+2018-01-01,Perlis,urban,85.6
+2019-01-01,Perlis,urban,84.9
+2020-01-01,Perlis,urban,93.9
+2021-01-01,Perlis,urban,95.4
+2022-01-01,Perlis,urban,96.2
+2023-01-01,Perlis,urban,96.4
+2024-01-01,Perlis,urban,97.0
+2025-01-01,Perlis,urban,97.5
+2018-01-01,Perlis,rural,79.7
+2019-01-01,Perlis,rural,81.6
+2020-01-01,Perlis,rural,82.3
+2021-01-01,Perlis,rural,94.1
+2022-01-01,Perlis,rural,94.7
+2023-01-01,Perlis,rural,95.6
+2024-01-01,Perlis,rural,96.1
+2025-01-01,Perlis,rural,96.6
+2018-01-01,Pulau Pinang,overall,86.7
+2019-01-01,Pulau Pinang,overall,86.7
+2020-01-01,Pulau Pinang,overall,90.2
+2021-01-01,Pulau Pinang,overall,97.8
+2022-01-01,Pulau Pinang,overall,98.7
+2023-01-01,Pulau Pinang,overall,99.0
+2024-01-01,Pulau Pinang,overall,99.4
+2025-01-01,Pulau Pinang,overall,99.5
+2018-01-01,Pulau Pinang,urban,86.9
+2019-01-01,Pulau Pinang,urban,86.9
+2020-01-01,Pulau Pinang,urban,90.2
+2021-01-01,Pulau Pinang,urban,97.9
+2022-01-01,Pulau Pinang,urban,98.9
+2023-01-01,Pulau Pinang,urban,99.2
+2024-01-01,Pulau Pinang,urban,99.6
+2025-01-01,Pulau Pinang,urban,99.6
+2018-01-01,Pulau Pinang,rural,83.1
+2019-01-01,Pulau Pinang,rural,82.9
+2020-01-01,Pulau Pinang,rural,88.2
+2021-01-01,Pulau Pinang,rural,95.6
+2022-01-01,Pulau Pinang,rural,96.6
+2023-01-01,Pulau Pinang,rural,96.8
+2024-01-01,Pulau Pinang,rural,97.2
+2025-01-01,Pulau Pinang,rural,97.4
+2018-01-01,Sabah,overall,76.7
+2019-01-01,Sabah,overall,80.0
+2020-01-01,Sabah,overall,85.8
+2021-01-01,Sabah,overall,97.3
+2022-01-01,Sabah,overall,96.8
+2023-01-01,Sabah,overall,97.2
+2024-01-01,Sabah,overall,97.4
+2025-01-01,Sabah,overall,98.1
+2018-01-01,Sabah,urban,80.9
+2019-01-01,Sabah,urban,84.5
+2020-01-01,Sabah,urban,88.6
+2021-01-01,Sabah,urban,98.0
+2022-01-01,Sabah,urban,98.0
+2023-01-01,Sabah,urban,98.2
+2024-01-01,Sabah,urban,98.7
+2025-01-01,Sabah,urban,99.2
+2018-01-01,Sabah,rural,70.6
+2019-01-01,Sabah,rural,73.3
+2020-01-01,Sabah,rural,80.7
+2021-01-01,Sabah,rural,96.2
+2022-01-01,Sabah,rural,95.4
+2023-01-01,Sabah,rural,95.9
+2024-01-01,Sabah,rural,95.9
+2025-01-01,Sabah,rural,96.7
+2018-01-01,Sarawak,overall,73.6
+2019-01-01,Sarawak,overall,76.4
+2020-01-01,Sarawak,overall,81.3
+2021-01-01,Sarawak,overall,93.6
+2022-01-01,Sarawak,overall,93.9
+2023-01-01,Sarawak,overall,94.2
+2024-01-01,Sarawak,overall,94.2
+2025-01-01,Sarawak,overall,94.9
+2018-01-01,Sarawak,urban,82.7
+2019-01-01,Sarawak,urban,85.0
+2020-01-01,Sarawak,urban,91.0
+2021-01-01,Sarawak,urban,98.0
+2022-01-01,Sarawak,urban,98.4
+2023-01-01,Sarawak,urban,98.6
+2024-01-01,Sarawak,urban,99.0
+2025-01-01,Sarawak,urban,99.3
+2018-01-01,Sarawak,rural,60.6
+2019-01-01,Sarawak,rural,63.0
+2020-01-01,Sarawak,rural,65.8
+2021-01-01,Sarawak,rural,86.7
+2022-01-01,Sarawak,rural,87.7
+2023-01-01,Sarawak,rural,88.3
+2024-01-01,Sarawak,rural,88.7
+2025-01-01,Sarawak,rural,89.1
+2018-01-01,Selangor,overall,91.0
+2019-01-01,Selangor,overall,91.7
+2020-01-01,Selangor,overall,96.1
+2021-01-01,Selangor,overall,98.0
+2022-01-01,Selangor,overall,98.5
+2023-01-01,Selangor,overall,98.8
+2024-01-01,Selangor,overall,99.2
+2025-01-01,Selangor,overall,99.4
+2018-01-01,Selangor,urban,91.9
+2019-01-01,Selangor,urban,92.4
+2020-01-01,Selangor,urban,96.8
+2021-01-01,Selangor,urban,98.1
+2022-01-01,Selangor,urban,98.5
+2023-01-01,Selangor,urban,98.9
+2024-01-01,Selangor,urban,99.3
+2025-01-01,Selangor,urban,99.5
+2018-01-01,Selangor,rural,79.4
+2019-01-01,Selangor,rural,78.4
+2020-01-01,Selangor,rural,85.8
+2021-01-01,Selangor,rural,96.1
+2022-01-01,Selangor,rural,96.7
+2023-01-01,Selangor,rural,96.9
+2024-01-01,Selangor,rural,97.3
+2025-01-01,Selangor,rural,97.7
+2018-01-01,Terengganu,overall,78.2
+2019-01-01,Terengganu,overall,81.0
+2020-01-01,Terengganu,overall,84.2
+2021-01-01,Terengganu,overall,95.5
+2022-01-01,Terengganu,overall,97.0
+2023-01-01,Terengganu,overall,97.2
+2024-01-01,Terengganu,overall,97.6
+2025-01-01,Terengganu,overall,98.1
+2018-01-01,Terengganu,urban,81.3
+2019-01-01,Terengganu,urban,83.6
+2020-01-01,Terengganu,urban,85.8
+2021-01-01,Terengganu,urban,96.0
+2022-01-01,Terengganu,urban,97.2
+2023-01-01,Terengganu,urban,97.3
+2024-01-01,Terengganu,urban,97.7
+2025-01-01,Terengganu,urban,98.3
+2018-01-01,Terengganu,rural,72.2
+2019-01-01,Terengganu,rural,74.7
+2020-01-01,Terengganu,rural,80.5
+2021-01-01,Terengganu,rural,94.4
+2022-01-01,Terengganu,rural,96.7
+2023-01-01,Terengganu,rural,97.1
+2024-01-01,Terengganu,rural,97.5
+2025-01-01,Terengganu,rural,97.8
+2018-01-01,W.P. Kuala Lumpur,overall,87.4
+2019-01-01,W.P. Kuala Lumpur,overall,93.4
+2020-01-01,W.P. Kuala Lumpur,overall,97.3
+2021-01-01,W.P. Kuala Lumpur,overall,99.6
+2022-01-01,W.P. Kuala Lumpur,overall,99.8
+2023-01-01,W.P. Kuala Lumpur,overall,99.9
+2024-01-01,W.P. Kuala Lumpur,overall,100.0
+2025-01-01,W.P. Kuala Lumpur,overall,100.0
+2018-01-01,W.P. Kuala Lumpur,urban,87.4
+2019-01-01,W.P. Kuala Lumpur,urban,93.4
+2020-01-01,W.P. Kuala Lumpur,urban,97.3
+2021-01-01,W.P. Kuala Lumpur,urban,99.6
+2022-01-01,W.P. Kuala Lumpur,urban,99.8
+2023-01-01,W.P. Kuala Lumpur,urban,99.9
+2024-01-01,W.P. Kuala Lumpur,urban,100.0
+2025-01-01,W.P. Kuala Lumpur,urban,100.0
+2018-01-01,W.P. Labuan,overall,89.1
+2019-01-01,W.P. Labuan,overall,94.9
+2020-01-01,W.P. Labuan,overall,95.9
+2021-01-01,W.P. Labuan,overall,99.8
+2022-01-01,W.P. Labuan,overall,96.6
+2023-01-01,W.P. Labuan,overall,97.4
+2024-01-01,W.P. Labuan,overall,97.7
+2025-01-01,W.P. Labuan,overall,98.1
+2018-01-01,W.P. Labuan,urban,91.1
+2019-01-01,W.P. Labuan,urban,98.2
+2020-01-01,W.P. Labuan,urban,98.3
+2021-01-01,W.P. Labuan,urban,99.8
+2022-01-01,W.P. Labuan,urban,98.2
+2023-01-01,W.P. Labuan,urban,98.3
+2024-01-01,W.P. Labuan,urban,98.3
+2025-01-01,W.P. Labuan,urban,98.8
+2018-01-01,W.P. Labuan,rural,77.9
+2019-01-01,W.P. Labuan,rural,82.5
+2020-01-01,W.P. Labuan,rural,84.2
+2021-01-01,W.P. Labuan,rural,99.5
+2022-01-01,W.P. Labuan,rural,85.7
+2023-01-01,W.P. Labuan,rural,86.6
+2024-01-01,W.P. Labuan,rural,91.3
+2025-01-01,W.P. Labuan,rural,91.8
+2018-01-01,W.P. Putrajaya,overall,99.6
+2019-01-01,W.P. Putrajaya,overall,98.4
+2020-01-01,W.P. Putrajaya,overall,99.7
+2021-01-01,W.P. Putrajaya,overall,99.8
+2022-01-01,W.P. Putrajaya,overall,99.9
+2023-01-01,W.P. Putrajaya,overall,99.9
+2024-01-01,W.P. Putrajaya,overall,100.0
+2025-01-01,W.P. Putrajaya,overall,100.0
+2018-01-01,W.P. Putrajaya,urban,99.6
+2019-01-01,W.P. Putrajaya,urban,98.4
+2020-01-01,W.P. Putrajaya,urban,99.7
+2021-01-01,W.P. Putrajaya,urban,99.8
+2022-01-01,W.P. Putrajaya,urban,99.9
+2023-01-01,W.P. Putrajaya,urban,99.9
+2024-01-01,W.P. Putrajaya,urban,100.0
+2025-01-01,W.P. Putrajaya,urban,100.0

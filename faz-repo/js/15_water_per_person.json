@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 420,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/water_domestic_per_person_2024.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "domestic_mld": "number",
+        "population_thousands": "number",
+        "litres_per_person_per_day": "number"
+      }
+    }
+  },
+  "layer": [
+    {
+      "transform": [
+        {
+          "filter": "datum.state != 'Malaysia'"
+        }
+      ],
+      "mark": {
+        "type": "bar",
+        "color": "#73A5CA"
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "sort": "-x",
+          "title": null
+        },
+        "x": {
+          "field": "litres_per_person_per_day",
+          "type": "quantitative",
+          "title": "Litres per person per day"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "State"
+          },
+          {
+            "field": "litres_per_person_per_day",
+            "title": "Litres/person/day"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state == 'Malaysia'"
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "color": "#d1362b",
+        "strokeDash": [
+          4,
+          3
+        ],
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "litres_per_person_per_day",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state == 'Malaysia'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 4,
+        "dy": -4,
+        "baseline": "bottom",
+        "color": "#d1362b",
+        "fontSize": 10,
+        "y": 0
+      },
+      "encoding": {
+        "x": {
+          "field": "litres_per_person_per_day",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "Malaysia"
+        }
+      }
+    }
+  ]
+}

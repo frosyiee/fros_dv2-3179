@@ -1,0 +1,220 @@
+date,state,sex,proportion
+2017-01-01,Malaysia,both,95.5
+2018-01-01,Malaysia,both,96.0
+2019-01-01,Malaysia,both,95.7
+2020-01-01,Malaysia,both,96.4
+2021-01-01,Malaysia,both,97.4
+2022-01-01,Malaysia,both,98.2
+2023-01-01,Malaysia,both,98.4
+2024-01-01,Malaysia,both,98.3
+2025-01-01,Malaysia,both,98.6
+2017-01-01,Malaysia,male,96.6
+2018-01-01,Malaysia,male,96.7
+2019-01-01,Malaysia,male,96.8
+2020-01-01,Malaysia,male,97.7
+2021-01-01,Malaysia,male,98.2
+2022-01-01,Malaysia,male,99.1
+2023-01-01,Malaysia,male,98.7
+2024-01-01,Malaysia,male,98.6
+2025-01-01,Malaysia,male,98.8
+2017-01-01,Malaysia,female,94.4
+2018-01-01,Malaysia,female,95.1
+2019-01-01,Malaysia,female,94.8
+2020-01-01,Malaysia,female,95.0
+2021-01-01,Malaysia,female,96.6
+2022-01-01,Malaysia,female,97.2
+2023-01-01,Malaysia,female,98.0
+2024-01-01,Malaysia,female,98.0
+2025-01-01,Malaysia,female,98.3
+2022-01-01,Johor,both,99.6
+2023-01-01,Johor,both,99.6
+2024-01-01,Johor,both,99.5
+2025-01-01,Johor,both,99.6
+2022-01-01,Johor,male,99.8
+2023-01-01,Johor,male,99.8
+2024-01-01,Johor,male,99.5
+2025-01-01,Johor,male,99.7
+2022-01-01,Johor,female,99.4
+2023-01-01,Johor,female,99.5
+2024-01-01,Johor,female,99.6
+2025-01-01,Johor,female,99.6
+2022-01-01,Kedah,both,98.0
+2023-01-01,Kedah,both,98.3
+2024-01-01,Kedah,both,98.1
+2025-01-01,Kedah,both,98.2
+2022-01-01,Kedah,male,98.6
+2023-01-01,Kedah,male,98.9
+2024-01-01,Kedah,male,98.7
+2025-01-01,Kedah,male,99.0
+2022-01-01,Kedah,female,97.4
+2023-01-01,Kedah,female,97.6
+2024-01-01,Kedah,female,97.5
+2025-01-01,Kedah,female,97.5
+2022-01-01,Kelantan,both,96.6
+2023-01-01,Kelantan,both,96.7
+2024-01-01,Kelantan,both,96.7
+2025-01-01,Kelantan,both,96.8
+2022-01-01,Kelantan,male,97.6
+2023-01-01,Kelantan,male,97.6
+2024-01-01,Kelantan,male,97.5
+2025-01-01,Kelantan,male,97.2
+2022-01-01,Kelantan,female,95.5
+2023-01-01,Kelantan,female,95.9
+2024-01-01,Kelantan,female,95.9
+2025-01-01,Kelantan,female,96.4
+2022-01-01,Melaka,both,98.9
+2023-01-01,Melaka,both,99.1
+2024-01-01,Melaka,both,99.5
+2025-01-01,Melaka,both,99.5
+2022-01-01,Melaka,male,99.5
+2023-01-01,Melaka,male,99.1
+2024-01-01,Melaka,male,99.5
+2025-01-01,Melaka,male,99.6
+2022-01-01,Melaka,female,98.3
+2023-01-01,Melaka,female,99.1
+2024-01-01,Melaka,female,99.4
+2025-01-01,Melaka,female,99.4
+2022-01-01,Negeri Sembilan,both,97.8
+2023-01-01,Negeri Sembilan,both,98.3
+2024-01-01,Negeri Sembilan,both,98.0
+2025-01-01,Negeri Sembilan,both,98.2
+2022-01-01,Negeri Sembilan,male,97.9
+2023-01-01,Negeri Sembilan,male,98.3
+2024-01-01,Negeri Sembilan,male,98.1
+2025-01-01,Negeri Sembilan,male,98.8
+2022-01-01,Negeri Sembilan,female,97.8
+2023-01-01,Negeri Sembilan,female,98.2
+2024-01-01,Negeri Sembilan,female,98.0
+2025-01-01,Negeri Sembilan,female,97.5
+2022-01-01,Pahang,both,98.7
+2023-01-01,Pahang,both,99.0
+2024-01-01,Pahang,both,98.9
+2025-01-01,Pahang,both,99.0
+2022-01-01,Pahang,male,99.4
+2023-01-01,Pahang,male,99.3
+2024-01-01,Pahang,male,99.2
+2025-01-01,Pahang,male,99.5
+2022-01-01,Pahang,female,98.0
+2023-01-01,Pahang,female,98.7
+2024-01-01,Pahang,female,98.5
+2025-01-01,Pahang,female,98.5
+2022-01-01,Perak,both,97.1
+2023-01-01,Perak,both,97.5
+2024-01-01,Perak,both,97.3
+2025-01-01,Perak,both,97.9
+2022-01-01,Perak,male,99.2
+2023-01-01,Perak,male,98.1
+2024-01-01,Perak,male,97.7
+2025-01-01,Perak,male,98.6
+2022-01-01,Perak,female,94.9
+2023-01-01,Perak,female,96.8
+2024-01-01,Perak,female,96.9
+2025-01-01,Perak,female,97.1
+2022-01-01,Perlis,both,96.4
+2023-01-01,Perlis,both,96.8
+2024-01-01,Perlis,both,96.7
+2025-01-01,Perlis,both,97.1
+2022-01-01,Perlis,male,96.9
+2023-01-01,Perlis,male,97.3
+2024-01-01,Perlis,male,97.3
+2025-01-01,Perlis,male,98.1
+2022-01-01,Perlis,female,96.0
+2023-01-01,Perlis,female,96.4
+2024-01-01,Perlis,female,96.2
+2025-01-01,Perlis,female,96.2
+2022-01-01,Pulau Pinang,both,98.7
+2023-01-01,Pulau Pinang,both,99.0
+2024-01-01,Pulau Pinang,both,98.8
+2025-01-01,Pulau Pinang,both,99.1
+2022-01-01,Pulau Pinang,male,99.3
+2023-01-01,Pulau Pinang,male,99.6
+2024-01-01,Pulau Pinang,male,99.2
+2025-01-01,Pulau Pinang,male,99.2
+2022-01-01,Pulau Pinang,female,98.1
+2023-01-01,Pulau Pinang,female,98.2
+2024-01-01,Pulau Pinang,female,98.4
+2025-01-01,Pulau Pinang,female,99.0
+2022-01-01,Sabah,both,95.9
+2023-01-01,Sabah,both,96.1
+2024-01-01,Sabah,both,96.6
+2025-01-01,Sabah,both,97.0
+2022-01-01,Sabah,male,97.4
+2023-01-01,Sabah,male,96.4
+2024-01-01,Sabah,male,97.2
+2025-01-01,Sabah,male,96.8
+2022-01-01,Sabah,female,94.3
+2023-01-01,Sabah,female,95.7
+2024-01-01,Sabah,female,95.9
+2025-01-01,Sabah,female,97.3
+2022-01-01,Sarawak,both,96.4
+2023-01-01,Sarawak,both,96.5
+2024-01-01,Sarawak,both,96.6
+2025-01-01,Sarawak,both,97.1
+2022-01-01,Sarawak,male,98.4
+2023-01-01,Sarawak,male,97.1
+2024-01-01,Sarawak,male,97.7
+2025-01-01,Sarawak,male,97.7
+2022-01-01,Sarawak,female,94.3
+2023-01-01,Sarawak,female,95.9
+2024-01-01,Sarawak,female,95.4
+2025-01-01,Sarawak,female,96.4
+2022-01-01,Selangor,both,99.3
+2023-01-01,Selangor,both,99.5
+2024-01-01,Selangor,both,99.3
+2025-01-01,Selangor,both,99.5
+2022-01-01,Selangor,male,99.9
+2023-01-01,Selangor,male,99.6
+2024-01-01,Selangor,male,99.1
+2025-01-01,Selangor,male,99.4
+2022-01-01,Selangor,female,98.6
+2023-01-01,Selangor,female,99.3
+2024-01-01,Selangor,female,99.6
+2025-01-01,Selangor,female,99.6
+2022-01-01,Terengganu,both,97.5
+2023-01-01,Terengganu,both,97.8
+2024-01-01,Terengganu,both,97.7
+2025-01-01,Terengganu,both,98.1
+2022-01-01,Terengganu,male,99.4
+2023-01-01,Terengganu,male,98.1
+2024-01-01,Terengganu,male,98.0
+2025-01-01,Terengganu,male,98.3
+2022-01-01,Terengganu,female,95.6
+2023-01-01,Terengganu,female,97.4
+2024-01-01,Terengganu,female,97.3
+2025-01-01,Terengganu,female,97.9
+2022-01-01,W.P. Kuala Lumpur,both,99.8
+2023-01-01,W.P. Kuala Lumpur,both,99.9
+2024-01-01,W.P. Kuala Lumpur,both,99.9
+2025-01-01,W.P. Kuala Lumpur,both,99.9
+2022-01-01,W.P. Kuala Lumpur,male,99.7
+2023-01-01,W.P. Kuala Lumpur,male,100.0
+2024-01-01,W.P. Kuala Lumpur,male,100.0
+2025-01-01,W.P. Kuala Lumpur,male,99.9
+2022-01-01,W.P. Kuala Lumpur,female,99.9
+2023-01-01,W.P. Kuala Lumpur,female,99.8
+2024-01-01,W.P. Kuala Lumpur,female,99.8
+2025-01-01,W.P. Kuala Lumpur,female,99.9
+2022-01-01,W.P. Labuan,both,99.1
+2023-01-01,W.P. Labuan,both,99.7
+2024-01-01,W.P. Labuan,both,99.6
+2025-01-01,W.P. Labuan,both,99.7
+2022-01-01,W.P. Labuan,male,99.1
+2023-01-01,W.P. Labuan,male,99.7
+2024-01-01,W.P. Labuan,male,100.0
+2025-01-01,W.P. Labuan,male,99.8
+2022-01-01,W.P. Labuan,female,99.2
+2023-01-01,W.P. Labuan,female,99.6
+2024-01-01,W.P. Labuan,female,99.1
+2025-01-01,W.P. Labuan,female,99.6
+2022-01-01,W.P. Putrajaya,both,99.7
+2023-01-01,W.P. Putrajaya,both,99.8
+2024-01-01,W.P. Putrajaya,both,99.7
+2025-01-01,W.P. Putrajaya,both,99.8
+2022-01-01,W.P. Putrajaya,male,100.0
+2023-01-01,W.P. Putrajaya,male,100.0
+2024-01-01,W.P. Putrajaya,male,99.5
+2025-01-01,W.P. Putrajaya,male,99.7
+2022-01-01,W.P. Putrajaya,female,99.3
+2023-01-01,W.P. Putrajaya,female,99.6
+2024-01-01,W.P. Putrajaya,female,100.0
+2025-01-01,W.P. Putrajaya,female,100.0

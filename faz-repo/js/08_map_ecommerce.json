@@ -1,0 +1,86 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "params": [
+    {"name": "mapZoom", "value": 1},
+    {"name": "mapPanX", "value": 0},
+    {"name": "mapPanY", "value": 0}
+  ],
+  "projection": {
+    "type": "mercator",
+    "center": [109.5, 4.2],
+    "scale": {"expr": "width*2.7*mapZoom"},
+    "translate": {"expr": "[width/2+mapPanX, height/2+mapPanY]"}
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "transform": [
+        {"filter": {"field": "properties.name", "oneOf": ["Brunei", "Indonesia", "Singapore", "Thailand", "Philippines", "Vietnam", "Cambodia", "Myanmar"]}}
+      ],
+      "mark": {"type": "geoshape", "fill": "#d9dbe0", "stroke": "#f3f5ef", "strokeWidth": 0.8}
+    },
+    {
+      "data": {"url": "../data/state_summary.csv"},
+      "transform": [
+        {
+          "lookup": "map_name",
+          "from": {
+            "data": {"url": "../data/malaysia_states.topojson", "format": {"type": "topojson", "feature": "MYSADM1gbOpen"}},
+            "key": "properties.shapeName",
+            "fields": ["geometry"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape", "stroke": "#FFFFFC", "strokeWidth": 0.5},
+      "encoding": {
+        "shape": {"field": "geometry", "type": "geojson"},
+        "color": {
+          "field": "buy_online", "type": "quantitative",
+          "scale": {"range": ["#BEDEFF", "#111844"]},
+          "legend": {"title": "% Online Shoppers", "orient": "bottom-left", "gradientLength": 160}
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "buy_online", "type": "quantitative", "title": "Bought online (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "data": {"url": "../data/malaysia_states.topojson", "format": {"type": "topojson", "feature": "MYS_outline"}},
+      "mark": {"type": "geoshape", "fill": null, "stroke": "#565656", "strokeWidth": 1}
+    }, 
+        {
+      "data": {
+        "url": "data/state_centroids.csv"
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 8,
+        "color": "#7a8296",
+        "align": "center",
+        "baseline": "middle",
+        "clip": false
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "map_name",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "right": 5,
+    "left": 5,
+    "top": 10,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/state_summary.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "income_mean",
+      "type": "quantitative",
+      "title": "Average household income per month",
+      "scale": {
+        "domain": [
+          4500,
+          16000
+        ],
+        "zero": false
+      },
+      "axis": {
+        "format": ",.0f"
+      }
+    },
+    "y": {
+      "field": "buy_online",
+      "type": "quantitative",
+      "title": "Internet users who bought online (%)",
+      "scale": {
+        "domain": [
+          65,
+          100
+        ],
+        "zero": false
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "size": 110,
+        "color": "#73A5CA",
+        "opacity": 0.85,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "clip": true
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "income_mean",
+            "type": "quantitative",
+            "title": "Income (RM per month)",
+            "format": ",.0f"
+          },
+          {
+            "field": "buy_online",
+            "type": "quantitative",
+            "title": "Bought online (%)",
+            "format": ".1f"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "zoomPan",
+          "select": {
+            "type": "interval",
+            "encodings": [
+              "x",
+              "y"
+            ]
+          },
+          "bind": "scales"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state == 'Johor' || datum.state == 'W.P. Putrajaya' || datum.state == 'W.P. Labuan' || datum.state == 'Selangor' || datum.state == 'W.P. Kuala Lumpur' || datum.state == 'Kelantan'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 9,
+        "fontSize": 11,
+        "color": "#1b2540",
+        "clip": true
+      },
+      "encoding": {
+        "text": {
+          "field": "state",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+state,map_name,year,income_mean,income_median,expenditure_mean,spend_pct_of_income,gini,poverty
+Johor,Johor,2022,8517,6879,5342,62.7,0.366,4.6
+Johor,Johor,2024,9484,7712,5927,62.5,0.348,2.5
+Kedah,Kedah,2022,5550,4402,3765,67.8,0.359,9.0
+Kedah,Kedah,2024,5793,4895,4028,69.5,0.334,8.4
+Kelantan,Kelantan,2022,4885,3614,3505,71.8,0.385,13.2
+Kelantan,Kelantan,2024,5265,4083,3825,72.6,0.356,11.5
+Melaka,Malacca,2022,8057,6210,5707,70.8,0.37,4.2
+Melaka,Malacca,2024,8686,6891,6212,71.5,0.337,3.0
+Negeri Sembilan,Negeri Sembilan,2022,6788,5226,4678,68.9,0.369,4.4
+Negeri Sembilan,Negeri Sembilan,2024,7305,5591,5115,70.0,0.343,4.0
+Pahang,Pahang,2022,5777,4753,4107,71.1,0.308,6.3
+Pahang,Pahang,2024,6066,4975,4368,72.0,0.319,5.9
+Pulau Pinang,Penang,2022,8267,6502,5322,64.4,0.371,2.0
+Pulau Pinang,Penang,2024,9152,7386,5850,63.9,0.311,1.9
+Perak,Perak,2022,5779,4494,3903,67.5,0.368,7.5
+Perak,Perak,2024,6173,4687,4232,68.6,0.298,6.9
+Perlis,Perlis,2022,5664,4713,3834,67.7,0.336,4.0
+Perlis,Perlis,2024,5996,4950,4084,68.1,0.334,3.6
+Selangor,Selangor,2022,12233,9983,6770,55.3,0.361,1.5
+Selangor,Selangor,2024,13296,10726,7266,54.6,0.332,0.9
+Terengganu,Terengganu,2022,7248,5878,4796,66.2,0.326,6.2
+Terengganu,Terengganu,2024,7627,6627,5219,68.4,0.263,5.8
+Sabah,Sabah,2022,6171,4577,3342,54.2,0.395,19.7
+Sabah,Sabah,2024,6498,4890,3547,54.6,0.405,17.7
+Sarawak,Sarawak,2022,6457,4978,3915,60.6,0.382,10.8
+Sarawak,Sarawak,2024,6947,5504,4281,61.6,0.361,8.4
+W.P. Kuala Lumpur,Kuala Lumpur,2022,13325,10234,7823,58.7,0.38,1.4
+W.P. Kuala Lumpur,Kuala Lumpur,2024,13985,10802,8178,58.5,0.375,1.0
+W.P. Labuan,Labuan,2022,8250,6904,4176,50.6,0.3,2.5
+W.P. Labuan,Labuan,2024,8555,7383,4497,52.6,0.327,2.0
+W.P. Putrajaya,Putrajaya,2022,13473,10056,8897,66.0,0.368,0.1
+W.P. Putrajaya,Putrajaya,2024,13846,10769,9186,66.3,0.324,0.2

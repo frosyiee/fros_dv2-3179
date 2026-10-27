@@ -1,0 +1,139 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "right": 5,
+    "left": 5,
+    "top": 10,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/phone_ownership.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "proportion": "number",
+        "date": "string"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.state == 'Malaysia' && datum.sex != 'both'"
+    },
+    {
+      "calculate": "toNumber(substring(datum.date,0,4))",
+      "as": "yr"
+    },
+    {
+      "calculate": "datum.sex == 'male' ? 'Men' : 'Women'",
+      "as": "group"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "yr",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "format": "d",
+        "tickMinStep": 1
+      }
+    },
+    "y": {
+      "field": "proportion",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          90,
+          100
+        ]
+      },
+      "title": "People who own a mobile phone (%)"
+    },
+    "color": {
+      "field": "group",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "domain": [
+          "Men",
+          "Women"
+        ],
+        "range": [
+          "#73A5CA",
+          "#930031"          
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "point": true
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "yr",
+            "title": "Year"
+          },
+          {
+            "field": "group",
+            "title": "Group"
+          },
+          {
+            "field": "proportion",
+            "title": "%"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "zoomPan",
+          "select": {
+            "type": "interval",
+            "encodings": [
+              "x"
+            ]
+          },
+          "bind": "scales"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "max",
+              "field": "yr",
+              "as": "last"
+            }
+          ]
+        },
+        {
+          "filter": "datum.yr == datum.last"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "group"
+        }
+      }
+    }
+  ]
+}

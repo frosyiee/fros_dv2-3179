@@ -1,0 +1,96 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/water_consumption.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "value": "number",
+        "date": "string"
+      }
+    }
+  },
+  "params": [
+  {
+    "name": "zoom",
+    "select": {
+      "type": "interval",
+      "encodings": ["x"]
+    },
+    "bind": "scales"
+  }
+],
+  "transform": [
+    {
+      "filter": "datum.state == 'Malaysia'"
+    },
+    {
+      "calculate": "toNumber(substring(datum.date,0,4))",
+      "as": "yr"
+    },
+    {
+      "calculate": "datum.sector == 'domestic' ? 'Households' : 'Businesses and industry'",
+      "as": "sector_label"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2.5,
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "yr",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "format": "d",
+        "tickMinStep": 2
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Million litres per day"
+    },
+    "color": {
+      "field": "sector_label",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Households",
+          "Businesses and industry"
+        ],
+        "range": [
+          "#73A5CA",
+          "#9aa0a6"
+        ]
+      },
+      "legend": {
+        "orient": "top",
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "yr",
+        "title": "Year"
+      },
+      {
+        "field": "sector_label",
+        "title": "Sector"
+      },
+      {
+        "field": "value",
+        "title": "Million litres/day",
+        "format": ","
+      }
+    ]
+  }
+}
