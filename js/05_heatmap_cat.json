@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 470,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "data": {"url": "../data/cpi_index_state.csv"},
+  "transform": [
+    {"filter": "datum.division != 'overall'"},
+    {"joinaggregate": [{"op": "max", "field": "date", "as": "last_date"}]},
+    {"filter": "datum.date == datum.last_date"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "state", "type": "nominal", "title": null,
+      "sort": {"field": "change_since_2019_pct", "op": "mean", "order": "descending"},
+      "axis": {"labelAngle": -45}
+    },
+    "y": {
+      "field": "division_name", "type": "nominal", "title": null,
+      "sort": {"field": "change_since_2019_pct", "op": "mean", "order": "descending"},
+      "axis": {"labelLimit": 240}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "rect", "stroke": "#ffffff", "strokeWidth": 1},
+      "encoding": {
+        "color": {
+          "field": "change_since_2019_pct", "type": "quantitative",
+          "scale": {"domain": [-12, 0, 38], "range": ["#930031", "#FFFFFC", "#73A5CA"]},
+          "legend": {"title": "% Price change", "orient": "bottom", "gradientLength": 280}
+        },
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "division_name", "type": "nominal", "title": "Category"},
+          {"field": "change_since_2019_pct", "type": "quantitative", "title": "Price change (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "fontSize": 10},
+      "encoding": {
+        "text": {"field": "change_since_2019_pct", "type": "quantitative", "format": ".0f"},
+        "color": {"condition": {"test": "datum.change_since_2019_pct > 24", "value": "#ffffff"}, "value": "#1b2540"}
+      }
+    }
+  ]
+}

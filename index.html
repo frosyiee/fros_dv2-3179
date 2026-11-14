@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>The cost of everyday life across Malaysia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="hero">
+  <div class="wrap">
+
+    <p class="tag">Malaysians' Everyday Consumer Life</p>
+
+    <h1>The Cost Of Everyday Life Across Malaysia</h1>
+
+    <p class="deck">Groceries, transport, rent and phone bills do not cost the same everywhere. 
+        This page compares how prices, incomes and household spending differ across Malaysia's 
+        16 states and federal territories, and asks who is feeling the squeeze.</p>
+  </div>
+</header>
+
+<main>
+<section class="wrap" id="glance">
+  <h2>The Bigger Picture</h2>
+  <p class="lead">First, the basics: where people live, what households earn and spend, and how prices have moved. Two terms come up often. The <strong>Consumer Price Index (CPI)</strong> tracks the price of a typical basket of everyday goods and services. <strong>Inflation</strong> is how much those prices have risen over a period.</p>
+
+  <div class="grid">
+    <figure>
+      <h3>More than one in five Malaysians lives in Selangor</h3>
+      <p>Bigger circles mean more people in 2024. Johor and Sabah come next. Putrajaya and Labuan are too small to see clearly.</p>
+      <div class="chart" id="chart-population" role="img" aria-label="Map of Malaysia with circles sized by state population"></div>
+      <p class="src">Source: DOSM, population by state, 2024.</p>
+    </figure>
+
+    <figure>
+      <h3>A Kuala Lumpur household earns about 2.7 times as much as one in Kelantan</h3>
+      <p>Each row shows average monthly household income (blue) and spending (red) in 2024. The line between them is the money left after spending.</p>
+      <div class="chart" id="chart-income" role="img" aria-label="Dot plot of average household income and spending for each state"></div>
+      <p class="src">Source: DOSM, household income and expenditure by state, 2024.</p>
+    </figure>
+
+    <figure>
+      <h3>Prices are rising everywhere, from 0.5% in Sarawak to 2.5% in Negeri Sembilan</h3>
+      <p>Colour shows how much the price of the typical basket rose in the year to August 2026. Hover over a state for its exact figure.</p>
+      <div class="chart" id="chart-inflation" role="img" aria-label="Map of Malaysia coloured by price rise in the year to August 2026"></div>
+      <p class="src">Source: DOSM, CPI inflation by state, August 2026.</p>
+    </figure>
+
+    <figure>
+      <h3>Since 2019, prices have risen between 8% and 21%, depending on the state</h3>
+      <p>Each line follows the CPI, set to 100 in January 2019. Putrajaya ends highest and Labuan lowest. Hover over a line to pick out a state.</p>
+      <div class="chart" id="chart-cpi" role="img" aria-label="Line chart of price index for each state since January 2019"></div>
+      <p class="src">Source: DOSM, CPI by state, January 2019 to August 2026.</p>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap" id="squeeze">
+  <p class="bridge">Price rises hurt more when incomes cannot keep up. So how do prices and incomes line up?</p>
+  <h2>The Biggest Pressure Points</h2>
+  <p class="lead">Two things decide how much a price rise hurts: how fast prices climb, and how much a household earns.</p>
+  <div class="grid">
+    <figure>
+      <h3>Kedah and Pahang pair lower incomes with faster price rises</h3>
+      <div class="bl-wrap" role="img" aria-label="Colour key: income from lower to higher left to right, price rise from slower to faster bottom to top">
+        <div class="bl">
+          <i style="background:#d9503f"></i><i style="background:#a0507a"></i><i style="background:#4a3a6e"></i>
+          <i style="background:#f0bcb4"></i><i style="background:#b89cb8"></i><i style="background:#6a6fae"></i>
+          <i style="background:#e9e9ee"></i><i style="background:#b7c9e6"></i><i style="background:#4a7fc4"></i>
+        </div>
+        <div class="bl-text"><span>Left to right: household income, lower to higher.</span><span>Bottom to top: price rise, slower to faster.</span></div>
+      </div>
+      <p>States are split into thirds on each measure. Red is lower income with faster price rises. Blue is higher income with slower price rises.</p>
+      <div class="chart" id="chart-bivar" role="img" aria-label="Map of Malaysia coloured by income and price rise together"></div>
+      <p class="src">Source: DOSM, household income 2024 and CPI inflation to August 2026. Groups calculated by the author.</p>
+    </figure>
+
+    <figure>
+      <h3>The share of income spent rose in 12 of 16 states between 2022 and 2024</h3>
+      <p>Each line is a state. Terengganu and Labuan rose the most, while Selangor fell. Hover over a line to pick out a state.</p>
+      <div class="chart" id="chart-slope" role="img" aria-label="Slope chart of the share of income spent in each state, 2022 and 2024"></div>
+      <p class="src">Source: DOSM, household income and expenditure by state. Average spending divided by average income.</p>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap" id="prices">
+  <h2>The Rising Cost of Everyday Life</h2>
+  <p class="lead">Prices have risen since 2019, but not for everything. The grid compares prices in August 2026 with January 2019, for each category and state.</p>
+  <div class="grid">
+    <figure class="wide">
+      <h3>Eating out, personal care and food rose fastest since 2019</h3>
+      <p>Each square is one category in one state. Red means prices rose and green means they fell. Clothing and communication fell slightly on average. Putrajaya has the highest rise in several categories, such as 37% for restaurants and accommodation.</p>
+      <div class="chart" id="chart-heatmap" role="img" aria-label="Heatmap of price change since January 2019 by category and state"></div>
+      <p class="src">Source: DOSM, CPI by state and category. Percentages are the change in the index from January 2019 to August 2026.</p>
+    </figure>
+    <figure class="wide">
+      <h3>Food prices have risen faster than housing costs in every state since 2019, most of all in Selangor</h3>
+      <p>Each panel is one state, with prices set to 100 in January 2019. Red is food and beverages, blue is housing, water, electricity and fuel, and the dashed line is all items. Food is up 31% in Putrajaya and 29% in Selangor, but 11% in Kelantan. Housing costs dipped in 2020 and 2021 in most states. Panels run from the biggest food price rise to the smallest.</p>
+      <div class="chart fixed" id="chart-food-housing" role="img" aria-label="Small multiple line charts of food and housing prices in each state since January 2019"></div>
+      <p class="src">Source: DOSM, CPI by state and category, January 2019 to August 2026.</p>
+    </figure>
+    <figure class="wide">
+      <h3>Since 2010, food and eating out cost almost 60% more, while clothing and communication got cheaper</h3>
+      <p>Each line is the national CPI for one category, set to 100 in 2010. All items rose 35%. Alcohol and tobacco rose most (74%), while clothing fell 7% and information and communication fell 11%. Hover over a line to pick out a category.</p>
+      <div class="chart" id="chart-cpi-long" role="img" aria-label="Line chart of national price index for each spending category since 2010"></div>
+      <p class="src">Source: DOSM, CPI by division, Malaysia, annual, 2010 to 2025.</p>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap" id="water">
+    <p class="bridge">Prices are one pressure on a household. Another is what it uses every day, starting with water.</p>
+    <h2>How Malaysians Use Water</h2>
+    <p class="lead">Water is one of the basic services every household pays for. These charts show how much Malaysia uses and how that differs between states.</p>
+    <div class="grid">
+    <figure>
+      <h3>Households use 71% more water than in 2003</h3>
+      <p>Total water used by households (blue) and by businesses and industry (grey) across Malaysia, in million litres per day. Household use was about 4,400 million litres a day in 2003 and about 7,500 in 2024.</p>
+      <div class="chart" id="chart-water-trend" role="img" aria-label="Line chart of household and business water use in Malaysia since 2003"></div>
+      <p class="src">Source: DOSM, water consumption by state and sector, 2003 to 2024.</p>
+    </figure>
+    <figure>
+      <h3>A person in Kelantan uses about a third as much household water as one in Penang</h3>
+      <p>Litres used per person per day by households in 2024. The dashed line is the national average of 221 litres. Selangor includes Kuala Lumpur and Putrajaya.</p>
+      <div class="chart" id="chart-water-person" role="img" aria-label="Bar chart of household water use per person by state"></div>
+      <p class="src">Source: DOSM, water consumption by state and sector, 2024, and population by state, 2024. Per-person figures calculated by the author.</p>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap" id="online">
+  <p class="bridge">Another everyday service is a phone and an internet connection, and online shopping depends on having one.</p>
+  <h2>How Malaysians Use the Internet</h2>
+  <p class="lead">Before looking at how people shop, check who can get online and how. The charts compare cities and the countryside, and show which devices people use.</p>
+  <div class="grid">
+    <figure>
+      <h3>The urban-rural internet gap has narrowed since 2019 but not closed</h3>
+      <p>Share of people who use the internet. In 2019, 87.5% of urban and 72.7% of rural people did. By 2025 it was 99.2% and 95.7%. The axis starts at 70%.</p>
+      <div class="chart" id="chart-net-people" role="img" aria-label="Line chart of internet use in urban and rural areas"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2018 to 2025.</p>
+    </figure>
+    <figure>
+      <h3>Rural homes are still 8 points behind urban homes on internet access</h3>
+      <p>Share of households with internet access. Rural homes reached 90.7% in 2025 against 99.0% in urban areas, up from 79.4% and 92.1% in 2019. The axis starts at 70%.</p>
+      <div class="chart" id="chart-net-homes" role="img" aria-label="Line chart of household internet access in urban and rural areas"></div>
+      <p class="src">Source: DOSM, ICT use and access by households, 2019 to 2025.</p>
+    </figure>
+    <figure>
+      <h3>Nearly everyone goes online with a phone</h3>
+      <p>Share of internet users who used each device. In 2025, 99.4% used a mobile phone, 39.5% a computer and 27.4% a tablet. People can use more than one device, so the shares add up to more than 100%.</p>
+      <div class="chart" id="chart-devices" role="img" aria-label="Line chart of devices used to go online"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2019 to 2025.</p>
+    </figure>
+    <figure>
+      <h3>Computers are far less common among rural internet users</h3>
+      <p>Computer use was 43.6% among urban internet users and 27.2% among rural ones in 2025. Phone use was almost the same in both (about 99%).</p>
+      <div class="chart" id="chart-devices-area" role="img" aria-label="Bar chart of devices used by urban and rural internet users"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2025.</p>
+    </figure>
+    <figure class="wide">
+      <h3>Phone ownership is now almost equal for men and women</h3>
+      <p>The gap was 2.7 percentage points in 2020 (men 97.7%, women 95.0%) and 0.5 points in 2025 (98.8% and 98.3%). The axis starts at 90%.</p>
+      <div class="chart" id="chart-phone-sex" role="img" aria-label="Line chart of mobile phone ownership for men and women"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2017 to 2025.</p>
+    </figure>
+  </div>
+</section>
+
+
+<section class="wrap" id="shopping">
+  <p class="bridge">Price rises hurt more when incomes cannot keep up. So how do prices and incomes line up?</p>
+  <h2>How Malaysians shop</h2>
+  <p class="lead">Many people now buy online. The survey below asks internet users whether they bought goods or services through e-commerce.</p>
+  <div class="grid">
+    <figure>
+      <h3>Online buying ranges from 71% of internet users in Johor to 98% in Putrajaya</h3>
+      <p>Darker blue means more internet users bought online in 2025. Selangor and Kuala Lumpur are also high.</p>
+      <div class="chart" id="chart-ecom-map" role="img" aria-label="Map of Malaysia coloured by share of internet users who bought online"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2025, Table 2.12.</p>
+    </figure>
+
+    <figure>
+      <h3>Online buying is highest among people aged 20 to 49 and lowest among the over-60s</h3>
+      <p>More than 83% of internet users aged 20 to 49 bought online, compared with 63% of those aged 15 to 19 and 51% of those aged 60 and over.</p>
+      <div class="chart" id="chart-ecom-age" role="img" aria-label="Bar chart of online buying by age group"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2025, Table 2.14.</p>
+    </figure>
+
+    <figure class="wide">
+      <h3>Richer states tend to buy online more, with Johor the clearest exception</h3>
+      <p>Each dot is a state. Higher incomes tend to go with more online buying, but not always. Johor has a high income but the lowest online buying, and Labuan has a middle income but one of the highest.</p>
+      <div class="chart" id="chart-ecom-scatter" role="img" aria-label="Scatter plot of household income against online buying by state"></div>
+      <p class="src">Sources: DOSM, household income 2024 and ICT use and access by individuals, 2025.</p>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap" id="activities">
+  <p class="bridge">Buying is only one of the things people do online. Banking, booking travel and selling matter too.</p>
+  <h2>Beyond buying</h2>
+  <p class="lead">The same survey asks about other online activities. These charts show how they differ by state, age and sex.</p>
+  <div class="grid">
+    <figure class="wide">
+      <h3>Putrajaya, Labuan and Selangor lead on shopping and banking online, while Sarawak and Kelantan trail</h3>
+      <p>Each square is the share of internet users in a state who did the activity in 2025. Blue means above the Malaysia figure and yellow means below. States are ordered by online buying. Social networks are left out because almost everyone uses them (99.7%).</p>
+      <div class="chart" id="chart-activities" role="img" aria-label="Heatmap of online activities by state compared with the national figure"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2025, Table 2.12.</p>
+    </figure>
+    <figure class="wide">
+      <h3>Online banking and shopping are highest for 20 to 49 year-olds and drop for the over-60s</h3>
+      <p>Teenagers aged 15 to 19 shop online more than they bank online: 63% bought online and 50% used internet banking, against 90% banking among 20 to 24 year-olds. Only 51% of those aged 60 and over bought online.</p>
+      <div class="chart" id="chart-act-age" role="img" aria-label="Line chart of five online activities by age group"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2025, Table 2.14.</p>
+    </figure>
+    <figure class="wide">
+      <h3>Men and women shop and bank online at almost the same rate</h3>
+      <p>Men are blue and women are red. The largest gap on any activity is 1.7 percentage points, for booking travel or accommodation, with men ahead. Women are slightly ahead on ordering goods or services outside e-commerce platforms.</p>
+      <div class="chart" id="chart-act-sex" role="img" aria-label="Dot plot of online activities for men and women"></div>
+      <p class="src">Source: DOSM, ICT use and access by individuals, 2025, Table 2.13.</p>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap" id="takeaways">
+  <h2>What this means</h2>
+  <p class="lead">Prices are up in every state since 2019, by 8% in Labuan and 21% in Putrajaya, and eating out, personal care and food rose fastest. Food has climbed much faster than housing costs almost everywhere. The squeeze is not only a big-city story: Kedah and Pahang pair lower incomes with faster price rises, and households in 12 of 16 states spent a larger share of their income in 2024 than in 2022. Kedah, Negeri Sembilan and Pahang combine a high share of income spent with fast price rises. </p>
+  <p class="lead">Everyday services follow a similar pattern. Water use per person varies by a factor of three between states, and rural areas still trail cities on internet access and computer use, although almost everyone with a connection uses a phone. Online shopping follows income to a degree, but Johor shows that a higher income does not guarantee more online buying. Men and women use the internet for shopping and banking at almost the same rate, while the over-60s and teenagers do less of it.</p>
+  <p class="lead">Keep the limits in mind. The online shopping survey covers one year, the income data is for 2024 and the prices run to August 2026. CPI shows how fast prices changed, not which state is more expensive. Online buying is a share of internet users, and survey figures for small states such as Labuan and Putrajaya are less certain. Water use per person assumes the figures are million litres per day, and Selangor's figure is shared with Kuala Lumpur and Putrajaya. </p>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Created by Fazia Rosyadie. Published on 27 October 2026 for FIT3179 Monash University Malaysia</p>
+    <h2>Sources and credits</h2>
+    <ul>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Population table: States</em>. data.gov.my. <a href="https://data.gov.my/data-catalogue/population_state" target="_blank" rel="noopener noreferrer">https://data.gov.my/data-catalogue/population_state</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Household income by state</em>. data.gov.my. <a href="https://data.gov.my/data-catalogue/hh_income_state" target="_blank" rel="noopener noreferrer">https://data.gov.my/data-catalogue/hh_income_state</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Household income and expenditure: States</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/hies_state" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/hies_state</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Household income and expenditure: Administrative districts</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/hies_district?visual=table" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/hies_district?visual=table</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Postcode directory</em>. data.gov.my. <a href="https://data.gov.my/data-catalogue/poskod" target="_blank" rel="noopener noreferrer">https://data.gov.my/data-catalogue/poskod</a></li> 
+      <li>Department of Statistics Malaysia. (n.d.). <em>Population table: States</em>. data.gov.my. <a href="https://data.gov.my/data-catalogue/population_state" target="_blank" rel="noopener noreferrer">https://data.gov.my/data-catalogue/population_state</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Household income by state</em>. data.gov.my. <a href="https://data.gov.my/data-catalogue/hh_income_state" target="_blank" rel="noopener noreferrer">https://data.gov.my/data-catalogue/hh_income_state</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Household income and expenditure: States</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/hies_state" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/hies_state</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Household income and expenditure: Administrative districts</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/hies_district?visual=table" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/hies_district?visual=table</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Postcode directory</em>. data.gov.my. <a href="https://data.gov.my/data-catalogue/poskod" target="_blank" rel="noopener noreferrer">https://data.gov.my/data-catalogue/poskod</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Water consumption</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/water_consumption?state=malaysia&amp;sector=domestic&amp;visual=table" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/water_consumption?state=malaysia&amp;sector=domestic&amp;visual=table</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Mobile phone ownership by state and sex</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/icths_mobile_sex" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/icths_mobile_sex</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Internet use by state and strata</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/icths_internet_strata" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/icths_internet_strata</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Internet use by type of portable device</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/icths_internet_device" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/icths_internet_device</a></li>
+      <li>Department of Statistics Malaysia. (n.d.). <em>Household access to internet by state and strata</em>. OpenDOSM. <a href="https://open.dosm.gov.my/data-catalogue/hh_access_internet" target="_blank" rel="noopener noreferrer">https://open.dosm.gov.my/data-catalogue/hh_access_internet</a></li>
+      <li>Institute for Public Health. (2025). <em>National health and morbidity survey (NHMS) 2024: Nutrition. Volume III: Food consumption statistics</em>. National Institutes of Health, Ministry of Health Malaysia. <a href="https://iku.gov.my/images/nhms2024/vol3.pdf" target="_blank" rel="noopener noreferrer">https://iku.gov.my/images/nhms2024/vol3.pdf</a></li>
+      <li>Safwan Shamsir. (n.d.). <em>Ecommerce data</em> [Data set]. Kaggle. <a href="https://www.kaggle.com/datasets/safwanshamsir99/ecommerce-data" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/safwanshamsir99/ecommerce-data</a></li>
+      <li>Yoong Sin. (n.d.). <em>Shopee sample data</em> [Data set]. Kaggle. <a href="https://www.kaggle.com/datasets/yoongsin/shopee-sample-data" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/yoongsin/shopee-sample-data</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

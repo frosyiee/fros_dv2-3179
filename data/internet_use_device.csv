@@ -1,0 +1,1373 @@
+date,state,strata,device,proportion
+2019-01-01,Malaysia,overall,mobile_phone,99.6
+2020-01-01,Malaysia,overall,mobile_phone,99.6
+2021-01-01,Malaysia,overall,mobile_phone,99.7
+2022-01-01,Malaysia,overall,mobile_phone,98.8
+2023-01-01,Malaysia,overall,mobile_phone,99.0
+2024-01-01,Malaysia,overall,mobile_phone,99.3
+2025-01-01,Malaysia,overall,mobile_phone,99.4
+2019-01-01,Malaysia,overall,tablet,13.0
+2020-01-01,Malaysia,overall,tablet,14.1
+2021-01-01,Malaysia,overall,tablet,30.9
+2022-01-01,Malaysia,overall,tablet,26.2
+2023-01-01,Malaysia,overall,tablet,26.5
+2024-01-01,Malaysia,overall,tablet,26.9
+2025-01-01,Malaysia,overall,tablet,27.4
+2019-01-01,Malaysia,overall,computer,35.6
+2020-01-01,Malaysia,overall,computer,37.8
+2021-01-01,Malaysia,overall,computer,45.1
+2022-01-01,Malaysia,overall,computer,38.4
+2023-01-01,Malaysia,overall,computer,38.7
+2024-01-01,Malaysia,overall,computer,39.0
+2025-01-01,Malaysia,overall,computer,39.5
+2019-01-01,Malaysia,overall,other,7.0
+2020-01-01,Malaysia,overall,other,7.4
+2021-01-01,Malaysia,overall,other,18.0
+2022-01-01,Malaysia,overall,other,13.1
+2023-01-01,Malaysia,overall,other,13.5
+2024-01-01,Malaysia,overall,other,14.0
+2025-01-01,Malaysia,overall,other,14.4
+2019-01-01,Malaysia,urban,mobile_phone,99.6
+2020-01-01,Malaysia,urban,mobile_phone,99.6
+2021-01-01,Malaysia,urban,mobile_phone,99.7
+2022-01-01,Malaysia,urban,mobile_phone,98.8
+2023-01-01,Malaysia,urban,mobile_phone,99.0
+2024-01-01,Malaysia,urban,mobile_phone,99.3
+2025-01-01,Malaysia,urban,mobile_phone,99.4
+2019-01-01,Malaysia,urban,tablet,14.7
+2020-01-01,Malaysia,urban,tablet,16.0
+2021-01-01,Malaysia,urban,tablet,33.2
+2022-01-01,Malaysia,urban,tablet,28.9
+2023-01-01,Malaysia,urban,tablet,29.2
+2024-01-01,Malaysia,urban,tablet,29.7
+2025-01-01,Malaysia,urban,tablet,30.1
+2019-01-01,Malaysia,urban,computer,39.6
+2020-01-01,Malaysia,urban,computer,41.7
+2021-01-01,Malaysia,urban,computer,49.6
+2022-01-01,Malaysia,urban,computer,42.4
+2023-01-01,Malaysia,urban,computer,42.7
+2024-01-01,Malaysia,urban,computer,43.3
+2025-01-01,Malaysia,urban,computer,43.6
+2019-01-01,Malaysia,urban,other,7.9
+2020-01-01,Malaysia,urban,other,8.5
+2021-01-01,Malaysia,urban,other,19.9
+2022-01-01,Malaysia,urban,other,15.3
+2023-01-01,Malaysia,urban,other,15.6
+2024-01-01,Malaysia,urban,other,16.2
+2025-01-01,Malaysia,urban,other,16.5
+2019-01-01,Malaysia,rural,mobile_phone,99.6
+2020-01-01,Malaysia,rural,mobile_phone,99.7
+2021-01-01,Malaysia,rural,mobile_phone,99.6
+2022-01-01,Malaysia,rural,mobile_phone,98.6
+2023-01-01,Malaysia,rural,mobile_phone,98.8
+2024-01-01,Malaysia,rural,mobile_phone,99.2
+2025-01-01,Malaysia,rural,mobile_phone,99.3
+2019-01-01,Malaysia,rural,tablet,5.6
+2020-01-01,Malaysia,rural,tablet,6.4
+2021-01-01,Malaysia,rural,tablet,22.5
+2022-01-01,Malaysia,rural,tablet,17.7
+2023-01-01,Malaysia,rural,tablet,18.1
+2024-01-01,Malaysia,rural,tablet,18.7
+2025-01-01,Malaysia,rural,tablet,19.2
+2019-01-01,Malaysia,rural,computer,18.8
+2020-01-01,Malaysia,rural,computer,21.5
+2021-01-01,Malaysia,rural,computer,28.5
+2022-01-01,Malaysia,rural,computer,25.4
+2023-01-01,Malaysia,rural,computer,26.0
+2024-01-01,Malaysia,rural,computer,26.7
+2025-01-01,Malaysia,rural,computer,27.2
+2019-01-01,Malaysia,rural,other,3.2
+2020-01-01,Malaysia,rural,other,2.7
+2021-01-01,Malaysia,rural,other,11.1
+2022-01-01,Malaysia,rural,other,6.2
+2023-01-01,Malaysia,rural,other,6.8
+2024-01-01,Malaysia,rural,other,7.6
+2025-01-01,Malaysia,rural,other,8.0
+2019-01-01,Johor,overall,mobile_phone,99.9
+2020-01-01,Johor,overall,mobile_phone,99.8
+2021-01-01,Johor,overall,mobile_phone,99.8
+2022-01-01,Johor,overall,mobile_phone,99.2
+2023-01-01,Johor,overall,mobile_phone,99.4
+2024-01-01,Johor,overall,mobile_phone,99.7
+2025-01-01,Johor,overall,mobile_phone,99.7
+2019-01-01,Johor,overall,tablet,11.1
+2020-01-01,Johor,overall,tablet,10.4
+2021-01-01,Johor,overall,tablet,30.4
+2022-01-01,Johor,overall,tablet,23.2
+2023-01-01,Johor,overall,tablet,23.5
+2024-01-01,Johor,overall,tablet,24.2
+2025-01-01,Johor,overall,tablet,24.5
+2019-01-01,Johor,overall,computer,29.6
+2020-01-01,Johor,overall,computer,32.5
+2021-01-01,Johor,overall,computer,46.9
+2022-01-01,Johor,overall,computer,44.6
+2023-01-01,Johor,overall,computer,44.7
+2024-01-01,Johor,overall,computer,44.9
+2025-01-01,Johor,overall,computer,45.4
+2019-01-01,Johor,overall,other,4.2
+2020-01-01,Johor,overall,other,2.3
+2021-01-01,Johor,overall,other,12.3
+2022-01-01,Johor,overall,other,14.2
+2023-01-01,Johor,overall,other,14.5
+2024-01-01,Johor,overall,other,15.1
+2025-01-01,Johor,overall,other,15.4
+2019-01-01,Johor,urban,mobile_phone,99.9
+2020-01-01,Johor,urban,mobile_phone,99.7
+2021-01-01,Johor,urban,mobile_phone,99.8
+2022-01-01,Johor,urban,mobile_phone,99.2
+2023-01-01,Johor,urban,mobile_phone,99.4
+2024-01-01,Johor,urban,mobile_phone,99.7
+2025-01-01,Johor,urban,mobile_phone,99.7
+2019-01-01,Johor,urban,tablet,11.5
+2020-01-01,Johor,urban,tablet,10.6
+2021-01-01,Johor,urban,tablet,32.5
+2022-01-01,Johor,urban,tablet,23.0
+2023-01-01,Johor,urban,tablet,23.4
+2024-01-01,Johor,urban,tablet,24.0
+2025-01-01,Johor,urban,tablet,24.4
+2019-01-01,Johor,urban,computer,31.5
+2020-01-01,Johor,urban,computer,33.4
+2021-01-01,Johor,urban,computer,51.3
+2022-01-01,Johor,urban,computer,45.8
+2023-01-01,Johor,urban,computer,46.1
+2024-01-01,Johor,urban,computer,46.4
+2025-01-01,Johor,urban,computer,46.8
+2019-01-01,Johor,urban,other,3.6
+2020-01-01,Johor,urban,other,2.4
+2021-01-01,Johor,urban,other,13.0
+2022-01-01,Johor,urban,other,14.8
+2023-01-01,Johor,urban,other,15.1
+2024-01-01,Johor,urban,other,15.6
+2025-01-01,Johor,urban,other,15.9
+2019-01-01,Johor,rural,mobile_phone,99.8
+2020-01-01,Johor,rural,mobile_phone,99.8
+2021-01-01,Johor,rural,mobile_phone,99.9
+2022-01-01,Johor,rural,mobile_phone,99.4
+2023-01-01,Johor,rural,mobile_phone,99.6
+2024-01-01,Johor,rural,mobile_phone,99.9
+2025-01-01,Johor,rural,mobile_phone,99.8
+2019-01-01,Johor,rural,tablet,9.3
+2020-01-01,Johor,rural,tablet,9.4
+2021-01-01,Johor,rural,tablet,23.7
+2022-01-01,Johor,rural,tablet,23.8
+2023-01-01,Johor,rural,tablet,24.1
+2024-01-01,Johor,rural,tablet,24.7
+2025-01-01,Johor,rural,tablet,25.0
+2019-01-01,Johor,rural,computer,22.3
+2020-01-01,Johor,rural,computer,29.0
+2021-01-01,Johor,rural,computer,32.4
+2022-01-01,Johor,rural,computer,40.0
+2023-01-01,Johor,rural,computer,40.3
+2024-01-01,Johor,rural,computer,40.7
+2025-01-01,Johor,rural,computer,41.0
+2019-01-01,Johor,rural,other,6.4
+2020-01-01,Johor,rural,other,2.2
+2021-01-01,Johor,rural,other,10.1
+2022-01-01,Johor,rural,other,12.4
+2023-01-01,Johor,rural,other,12.8
+2024-01-01,Johor,rural,other,13.6
+2025-01-01,Johor,rural,other,14.0
+2019-01-01,Kedah,overall,mobile_phone,99.4
+2020-01-01,Kedah,overall,mobile_phone,99.6
+2021-01-01,Kedah,overall,mobile_phone,99.7
+2022-01-01,Kedah,overall,mobile_phone,99.6
+2023-01-01,Kedah,overall,mobile_phone,99.7
+2024-01-01,Kedah,overall,mobile_phone,99.9
+2025-01-01,Kedah,overall,mobile_phone,99.8
+2019-01-01,Kedah,overall,tablet,5.5
+2020-01-01,Kedah,overall,tablet,5.3
+2021-01-01,Kedah,overall,tablet,28.7
+2022-01-01,Kedah,overall,tablet,19.8
+2023-01-01,Kedah,overall,tablet,20.3
+2024-01-01,Kedah,overall,tablet,20.7
+2025-01-01,Kedah,overall,tablet,21.2
+2019-01-01,Kedah,overall,computer,25.7
+2020-01-01,Kedah,overall,computer,25.7
+2021-01-01,Kedah,overall,computer,46.4
+2022-01-01,Kedah,overall,computer,29.5
+2023-01-01,Kedah,overall,computer,30.0
+2024-01-01,Kedah,overall,computer,30.1
+2025-01-01,Kedah,overall,computer,30.7
+2019-01-01,Kedah,overall,other,4.4
+2020-01-01,Kedah,overall,other,3.2
+2021-01-01,Kedah,overall,other,13.0
+2022-01-01,Kedah,overall,other,5.3
+2023-01-01,Kedah,overall,other,5.6
+2024-01-01,Kedah,overall,other,5.9
+2025-01-01,Kedah,overall,other,6.3
+2019-01-01,Kedah,urban,mobile_phone,99.5
+2020-01-01,Kedah,urban,mobile_phone,99.6
+2021-01-01,Kedah,urban,mobile_phone,99.7
+2022-01-01,Kedah,urban,mobile_phone,99.7
+2023-01-01,Kedah,urban,mobile_phone,99.8
+2024-01-01,Kedah,urban,mobile_phone,99.9
+2025-01-01,Kedah,urban,mobile_phone,99.8
+2019-01-01,Kedah,urban,tablet,6.2
+2020-01-01,Kedah,urban,tablet,6.0
+2021-01-01,Kedah,urban,tablet,29.9
+2022-01-01,Kedah,urban,tablet,24.0
+2023-01-01,Kedah,urban,tablet,24.3
+2024-01-01,Kedah,urban,tablet,25.0
+2025-01-01,Kedah,urban,tablet,25.3
+2019-01-01,Kedah,urban,computer,27.8
+2020-01-01,Kedah,urban,computer,28.0
+2021-01-01,Kedah,urban,computer,50.3
+2022-01-01,Kedah,urban,computer,34.7
+2023-01-01,Kedah,urban,computer,35.0
+2024-01-01,Kedah,urban,computer,35.3
+2025-01-01,Kedah,urban,computer,35.6
+2019-01-01,Kedah,urban,other,5.0
+2020-01-01,Kedah,urban,other,3.9
+2021-01-01,Kedah,urban,other,14.0
+2022-01-01,Kedah,urban,other,6.5
+2023-01-01,Kedah,urban,other,6.8
+2024-01-01,Kedah,urban,other,7.1
+2025-01-01,Kedah,urban,other,7.4
+2019-01-01,Kedah,rural,mobile_phone,99.1
+2020-01-01,Kedah,rural,mobile_phone,99.7
+2021-01-01,Kedah,rural,mobile_phone,99.7
+2022-01-01,Kedah,rural,mobile_phone,99.5
+2023-01-01,Kedah,rural,mobile_phone,99.6
+2024-01-01,Kedah,rural,mobile_phone,99.8
+2025-01-01,Kedah,rural,mobile_phone,99.8
+2019-01-01,Kedah,rural,tablet,3.3
+2020-01-01,Kedah,rural,tablet,3.2
+2021-01-01,Kedah,rural,tablet,25.2
+2022-01-01,Kedah,rural,tablet,11.7
+2023-01-01,Kedah,rural,tablet,11.9
+2024-01-01,Kedah,rural,tablet,12.4
+2025-01-01,Kedah,rural,tablet,12.8
+2019-01-01,Kedah,rural,computer,19.2
+2020-01-01,Kedah,rural,computer,19.3
+2021-01-01,Kedah,rural,computer,34.5
+2022-01-01,Kedah,rural,computer,19.2
+2023-01-01,Kedah,rural,computer,19.5
+2024-01-01,Kedah,rural,computer,20.0
+2025-01-01,Kedah,rural,computer,20.4
+2019-01-01,Kedah,rural,other,2.5
+2020-01-01,Kedah,rural,other,1.1
+2021-01-01,Kedah,rural,other,9.9
+2022-01-01,Kedah,rural,other,2.9
+2023-01-01,Kedah,rural,other,3.2
+2024-01-01,Kedah,rural,other,3.6
+2025-01-01,Kedah,rural,other,4.0
+2019-01-01,Kelantan,overall,mobile_phone,99.4
+2020-01-01,Kelantan,overall,mobile_phone,99.6
+2021-01-01,Kelantan,overall,mobile_phone,99.6
+2022-01-01,Kelantan,overall,mobile_phone,97.5
+2023-01-01,Kelantan,overall,mobile_phone,97.7
+2024-01-01,Kelantan,overall,mobile_phone,98.2
+2025-01-01,Kelantan,overall,mobile_phone,98.6
+2019-01-01,Kelantan,overall,tablet,4.5
+2020-01-01,Kelantan,overall,tablet,4.4
+2021-01-01,Kelantan,overall,tablet,30.7
+2022-01-01,Kelantan,overall,tablet,20.8
+2023-01-01,Kelantan,overall,tablet,21.0
+2024-01-01,Kelantan,overall,tablet,21.4
+2025-01-01,Kelantan,overall,tablet,21.8
+2019-01-01,Kelantan,overall,computer,21.8
+2020-01-01,Kelantan,overall,computer,22.0
+2021-01-01,Kelantan,overall,computer,40.6
+2022-01-01,Kelantan,overall,computer,30.8
+2023-01-01,Kelantan,overall,computer,31.1
+2024-01-01,Kelantan,overall,computer,31.8
+2025-01-01,Kelantan,overall,computer,32.3
+2019-01-01,Kelantan,overall,other,1.4
+2020-01-01,Kelantan,overall,other,2.4
+2021-01-01,Kelantan,overall,other,15.2
+2022-01-01,Kelantan,overall,other,2.3
+2023-01-01,Kelantan,overall,other,2.6
+2024-01-01,Kelantan,overall,other,3.2
+2025-01-01,Kelantan,overall,other,3.6
+2019-01-01,Kelantan,urban,mobile_phone,99.3
+2020-01-01,Kelantan,urban,mobile_phone,99.5
+2021-01-01,Kelantan,urban,mobile_phone,99.5
+2022-01-01,Kelantan,urban,mobile_phone,97.2
+2023-01-01,Kelantan,urban,mobile_phone,97.4
+2024-01-01,Kelantan,urban,mobile_phone,97.8
+2025-01-01,Kelantan,urban,mobile_phone,98.2
+2019-01-01,Kelantan,urban,tablet,5.6
+2020-01-01,Kelantan,urban,tablet,4.9
+2021-01-01,Kelantan,urban,tablet,32.8
+2022-01-01,Kelantan,urban,tablet,27.4
+2023-01-01,Kelantan,urban,tablet,27.7
+2024-01-01,Kelantan,urban,tablet,28.1
+2025-01-01,Kelantan,urban,tablet,28.6
+2019-01-01,Kelantan,urban,computer,26.2
+2020-01-01,Kelantan,urban,computer,25.9
+2021-01-01,Kelantan,urban,computer,45.7
+2022-01-01,Kelantan,urban,computer,35.7
+2023-01-01,Kelantan,urban,computer,36.0
+2024-01-01,Kelantan,urban,computer,36.8
+2025-01-01,Kelantan,urban,computer,37.2
+2019-01-01,Kelantan,urban,other,2.0
+2020-01-01,Kelantan,urban,other,3.2
+2021-01-01,Kelantan,urban,other,17.2
+2022-01-01,Kelantan,urban,other,3.3
+2023-01-01,Kelantan,urban,other,3.6
+2024-01-01,Kelantan,urban,other,4.2
+2025-01-01,Kelantan,urban,other,4.6
+2019-01-01,Kelantan,rural,mobile_phone,99.6
+2020-01-01,Kelantan,rural,mobile_phone,99.6
+2021-01-01,Kelantan,rural,mobile_phone,99.8
+2022-01-01,Kelantan,rural,mobile_phone,97.8
+2023-01-01,Kelantan,rural,mobile_phone,98.0
+2024-01-01,Kelantan,rural,mobile_phone,98.6
+2025-01-01,Kelantan,rural,mobile_phone,99.0
+2019-01-01,Kelantan,rural,tablet,3.0
+2020-01-01,Kelantan,rural,tablet,3.7
+2021-01-01,Kelantan,rural,tablet,28.1
+2022-01-01,Kelantan,rural,tablet,15.2
+2023-01-01,Kelantan,rural,tablet,15.5
+2024-01-01,Kelantan,rural,tablet,15.8
+2025-01-01,Kelantan,rural,tablet,16.1
+2019-01-01,Kelantan,rural,computer,15.9
+2020-01-01,Kelantan,rural,computer,16.9
+2021-01-01,Kelantan,rural,computer,34.3
+2022-01-01,Kelantan,rural,computer,26.7
+2023-01-01,Kelantan,rural,computer,27.1
+2024-01-01,Kelantan,rural,computer,27.8
+2025-01-01,Kelantan,rural,computer,28.2
+2019-01-01,Kelantan,rural,other,0.7
+2020-01-01,Kelantan,rural,other,1.2
+2021-01-01,Kelantan,rural,other,12.8
+2022-01-01,Kelantan,rural,other,1.4
+2023-01-01,Kelantan,rural,other,1.7
+2024-01-01,Kelantan,rural,other,2.4
+2025-01-01,Kelantan,rural,other,2.7
+2019-01-01,Melaka,overall,mobile_phone,99.2
+2020-01-01,Melaka,overall,mobile_phone,99.5
+2021-01-01,Melaka,overall,mobile_phone,99.6
+2022-01-01,Melaka,overall,mobile_phone,98.7
+2023-01-01,Melaka,overall,mobile_phone,98.9
+2024-01-01,Melaka,overall,mobile_phone,99.4
+2025-01-01,Melaka,overall,mobile_phone,99.4
+2019-01-01,Melaka,overall,tablet,8.4
+2020-01-01,Melaka,overall,tablet,10.8
+2021-01-01,Melaka,overall,tablet,30.9
+2022-01-01,Melaka,overall,tablet,21.5
+2023-01-01,Melaka,overall,tablet,21.7
+2024-01-01,Melaka,overall,tablet,22.2
+2025-01-01,Melaka,overall,tablet,22.3
+2019-01-01,Melaka,overall,computer,28.7
+2020-01-01,Melaka,overall,computer,36.8
+2021-01-01,Melaka,overall,computer,48.7
+2022-01-01,Melaka,overall,computer,30.7
+2023-01-01,Melaka,overall,computer,30.8
+2024-01-01,Melaka,overall,computer,31.2
+2025-01-01,Melaka,overall,computer,31.4
+2019-01-01,Melaka,overall,other,6.9
+2020-01-01,Melaka,overall,other,6.7
+2021-01-01,Melaka,overall,other,24.5
+2022-01-01,Melaka,overall,other,5.5
+2023-01-01,Melaka,overall,other,5.8
+2024-01-01,Melaka,overall,other,6.1
+2025-01-01,Melaka,overall,other,6.5
+2019-01-01,Melaka,urban,mobile_phone,99.2
+2020-01-01,Melaka,urban,mobile_phone,99.6
+2021-01-01,Melaka,urban,mobile_phone,99.6
+2022-01-01,Melaka,urban,mobile_phone,98.6
+2023-01-01,Melaka,urban,mobile_phone,98.8
+2024-01-01,Melaka,urban,mobile_phone,99.3
+2025-01-01,Melaka,urban,mobile_phone,99.3
+2019-01-01,Melaka,urban,tablet,8.6
+2020-01-01,Melaka,urban,tablet,10.9
+2021-01-01,Melaka,urban,tablet,31.9
+2022-01-01,Melaka,urban,tablet,22.7
+2023-01-01,Melaka,urban,tablet,23.0
+2024-01-01,Melaka,urban,tablet,23.4
+2025-01-01,Melaka,urban,tablet,23.7
+2019-01-01,Melaka,urban,computer,28.9
+2020-01-01,Melaka,urban,computer,37.5
+2021-01-01,Melaka,urban,computer,50.5
+2022-01-01,Melaka,urban,computer,31.7
+2023-01-01,Melaka,urban,computer,32.0
+2024-01-01,Melaka,urban,computer,32.4
+2025-01-01,Melaka,urban,computer,32.7
+2019-01-01,Melaka,urban,other,7.0
+2020-01-01,Melaka,urban,other,7.0
+2021-01-01,Melaka,urban,other,25.5
+2022-01-01,Melaka,urban,other,5.9
+2023-01-01,Melaka,urban,other,6.2
+2024-01-01,Melaka,urban,other,6.5
+2025-01-01,Melaka,urban,other,6.9
+2019-01-01,Melaka,rural,mobile_phone,98.0
+2020-01-01,Melaka,rural,mobile_phone,99.0
+2021-01-01,Melaka,rural,mobile_phone,99.0
+2022-01-01,Melaka,rural,mobile_phone,99.7
+2023-01-01,Melaka,rural,mobile_phone,99.8
+2024-01-01,Melaka,rural,mobile_phone,99.9
+2025-01-01,Melaka,rural,mobile_phone,100.0
+2019-01-01,Melaka,rural,tablet,5.5
+2020-01-01,Melaka,rural,tablet,9.1
+2021-01-01,Melaka,rural,tablet,17.5
+2022-01-01,Melaka,rural,tablet,10.1
+2023-01-01,Melaka,rural,tablet,10.4
+2024-01-01,Melaka,rural,tablet,11.0
+2025-01-01,Melaka,rural,tablet,11.1
+2019-01-01,Melaka,rural,computer,24.8
+2020-01-01,Melaka,rural,computer,26.5
+2021-01-01,Melaka,rural,computer,25.1
+2022-01-01,Melaka,rural,computer,20.0
+2023-01-01,Melaka,rural,computer,20.3
+2024-01-01,Melaka,rural,computer,20.7
+2025-01-01,Melaka,rural,computer,21.0
+2019-01-01,Melaka,rural,other,5.2
+2020-01-01,Melaka,rural,other,2.9
+2021-01-01,Melaka,rural,other,12.0
+2022-01-01,Melaka,rural,other,1.9
+2023-01-01,Melaka,rural,other,2.4
+2024-01-01,Melaka,rural,other,2.7
+2025-01-01,Melaka,rural,other,3.0
+2019-01-01,Negeri Sembilan,overall,mobile_phone,99.5
+2020-01-01,Negeri Sembilan,overall,mobile_phone,99.5
+2021-01-01,Negeri Sembilan,overall,mobile_phone,99.8
+2022-01-01,Negeri Sembilan,overall,mobile_phone,99.7
+2023-01-01,Negeri Sembilan,overall,mobile_phone,99.8
+2024-01-01,Negeri Sembilan,overall,mobile_phone,99.9
+2025-01-01,Negeri Sembilan,overall,mobile_phone,99.9
+2019-01-01,Negeri Sembilan,overall,tablet,11.1
+2020-01-01,Negeri Sembilan,overall,tablet,14.1
+2021-01-01,Negeri Sembilan,overall,tablet,30.0
+2022-01-01,Negeri Sembilan,overall,tablet,21.2
+2023-01-01,Negeri Sembilan,overall,tablet,21.7
+2024-01-01,Negeri Sembilan,overall,tablet,21.9
+2025-01-01,Negeri Sembilan,overall,tablet,22.4
+2019-01-01,Negeri Sembilan,overall,computer,31.2
+2020-01-01,Negeri Sembilan,overall,computer,34.7
+2021-01-01,Negeri Sembilan,overall,computer,50.6
+2022-01-01,Negeri Sembilan,overall,computer,31.0
+2023-01-01,Negeri Sembilan,overall,computer,31.5
+2024-01-01,Negeri Sembilan,overall,computer,31.5
+2025-01-01,Negeri Sembilan,overall,computer,32.2
+2019-01-01,Negeri Sembilan,overall,other,8.1
+2020-01-01,Negeri Sembilan,overall,other,4.1
+2021-01-01,Negeri Sembilan,overall,other,19.2
+2022-01-01,Negeri Sembilan,overall,other,1.8
+2023-01-01,Negeri Sembilan,overall,other,2.2
+2024-01-01,Negeri Sembilan,overall,other,2.6
+2025-01-01,Negeri Sembilan,overall,other,2.9
+2019-01-01,Negeri Sembilan,urban,mobile_phone,99.4
+2020-01-01,Negeri Sembilan,urban,mobile_phone,99.4
+2021-01-01,Negeri Sembilan,urban,mobile_phone,99.8
+2022-01-01,Negeri Sembilan,urban,mobile_phone,99.9
+2023-01-01,Negeri Sembilan,urban,mobile_phone,99.9
+2024-01-01,Negeri Sembilan,urban,mobile_phone,100.0
+2025-01-01,Negeri Sembilan,urban,mobile_phone,100.0
+2019-01-01,Negeri Sembilan,urban,tablet,13.5
+2020-01-01,Negeri Sembilan,urban,tablet,16.0
+2021-01-01,Negeri Sembilan,urban,tablet,34.1
+2022-01-01,Negeri Sembilan,urban,tablet,24.1
+2023-01-01,Negeri Sembilan,urban,tablet,24.4
+2024-01-01,Negeri Sembilan,urban,tablet,24.9
+2025-01-01,Negeri Sembilan,urban,tablet,25.2
+2019-01-01,Negeri Sembilan,urban,computer,36.1
+2020-01-01,Negeri Sembilan,urban,computer,37.7
+2021-01-01,Negeri Sembilan,urban,computer,57.1
+2022-01-01,Negeri Sembilan,urban,computer,35.4
+2023-01-01,Negeri Sembilan,urban,computer,35.7
+2024-01-01,Negeri Sembilan,urban,computer,36.2
+2025-01-01,Negeri Sembilan,urban,computer,36.5
+2019-01-01,Negeri Sembilan,urban,other,9.4
+2020-01-01,Negeri Sembilan,urban,other,5.0
+2021-01-01,Negeri Sembilan,urban,other,22.0
+2022-01-01,Negeri Sembilan,urban,other,2.1
+2023-01-01,Negeri Sembilan,urban,other,2.5
+2024-01-01,Negeri Sembilan,urban,other,2.8
+2025-01-01,Negeri Sembilan,urban,other,3.1
+2019-01-01,Negeri Sembilan,rural,mobile_phone,99.9
+2020-01-01,Negeri Sembilan,rural,mobile_phone,99.8
+2021-01-01,Negeri Sembilan,rural,mobile_phone,99.8
+2022-01-01,Negeri Sembilan,rural,mobile_phone,99.3
+2023-01-01,Negeri Sembilan,rural,mobile_phone,99.5
+2024-01-01,Negeri Sembilan,rural,mobile_phone,99.8
+2025-01-01,Negeri Sembilan,rural,mobile_phone,99.9
+2019-01-01,Negeri Sembilan,rural,tablet,3.7
+2020-01-01,Negeri Sembilan,rural,tablet,7.3
+2021-01-01,Negeri Sembilan,rural,tablet,17.6
+2022-01-01,Negeri Sembilan,rural,tablet,14.7
+2023-01-01,Negeri Sembilan,rural,tablet,15.0
+2024-01-01,Negeri Sembilan,rural,tablet,15.4
+2025-01-01,Negeri Sembilan,rural,tablet,15.8
+2019-01-01,Negeri Sembilan,rural,computer,16.0
+2020-01-01,Negeri Sembilan,rural,computer,23.5
+2021-01-01,Negeri Sembilan,rural,computer,30.6
+2022-01-01,Negeri Sembilan,rural,computer,20.8
+2023-01-01,Negeri Sembilan,rural,computer,21.1
+2024-01-01,Negeri Sembilan,rural,computer,21.6
+2025-01-01,Negeri Sembilan,rural,computer,22.0
+2019-01-01,Negeri Sembilan,rural,other,4.0
+2020-01-01,Negeri Sembilan,rural,other,0.8
+2021-01-01,Negeri Sembilan,rural,other,10.5
+2022-01-01,Negeri Sembilan,rural,other,1.2
+2023-01-01,Negeri Sembilan,rural,other,1.7
+2024-01-01,Negeri Sembilan,rural,other,2.1
+2025-01-01,Negeri Sembilan,rural,other,2.5
+2019-01-01,Pahang,overall,mobile_phone,99.5
+2020-01-01,Pahang,overall,mobile_phone,99.4
+2021-01-01,Pahang,overall,mobile_phone,99.6
+2022-01-01,Pahang,overall,mobile_phone,98.6
+2023-01-01,Pahang,overall,mobile_phone,98.6
+2024-01-01,Pahang,overall,mobile_phone,99.1
+2025-01-01,Pahang,overall,mobile_phone,99.2
+2019-01-01,Pahang,overall,tablet,8.4
+2020-01-01,Pahang,overall,tablet,9.1
+2021-01-01,Pahang,overall,tablet,30.3
+2022-01-01,Pahang,overall,tablet,22.8
+2023-01-01,Pahang,overall,tablet,23.2
+2024-01-01,Pahang,overall,tablet,23.7
+2025-01-01,Pahang,overall,tablet,23.9
+2019-01-01,Pahang,overall,computer,31.2
+2020-01-01,Pahang,overall,computer,31.9
+2021-01-01,Pahang,overall,computer,40.8
+2022-01-01,Pahang,overall,computer,32.0
+2023-01-01,Pahang,overall,computer,32.3
+2024-01-01,Pahang,overall,computer,32.7
+2025-01-01,Pahang,overall,computer,32.9
+2019-01-01,Pahang,overall,other,5.5
+2020-01-01,Pahang,overall,other,2.5
+2021-01-01,Pahang,overall,other,17.5
+2022-01-01,Pahang,overall,other,2.7
+2023-01-01,Pahang,overall,other,3.4
+2024-01-01,Pahang,overall,other,4.0
+2025-01-01,Pahang,overall,other,4.4
+2019-01-01,Pahang,urban,mobile_phone,99.6
+2020-01-01,Pahang,urban,mobile_phone,99.4
+2021-01-01,Pahang,urban,mobile_phone,99.7
+2022-01-01,Pahang,urban,mobile_phone,99.4
+2023-01-01,Pahang,urban,mobile_phone,99.5
+2024-01-01,Pahang,urban,mobile_phone,99.9
+2025-01-01,Pahang,urban,mobile_phone,99.9
+2019-01-01,Pahang,urban,tablet,9.5
+2020-01-01,Pahang,urban,tablet,10.8
+2021-01-01,Pahang,urban,tablet,34.7
+2022-01-01,Pahang,urban,tablet,28.7
+2023-01-01,Pahang,urban,tablet,29.5
+2024-01-01,Pahang,urban,tablet,30.0
+2025-01-01,Pahang,urban,tablet,30.4
+2019-01-01,Pahang,urban,computer,37.7
+2020-01-01,Pahang,urban,computer,38.2
+2021-01-01,Pahang,urban,computer,48.8
+2022-01-01,Pahang,urban,computer,37.4
+2023-01-01,Pahang,urban,computer,37.8
+2024-01-01,Pahang,urban,computer,38.3
+2025-01-01,Pahang,urban,computer,38.6
+2019-01-01,Pahang,urban,other,5.4
+2020-01-01,Pahang,urban,other,3.2
+2021-01-01,Pahang,urban,other,20.9
+2022-01-01,Pahang,urban,other,3.9
+2023-01-01,Pahang,urban,other,4.5
+2024-01-01,Pahang,urban,other,5.3
+2025-01-01,Pahang,urban,other,5.6
+2019-01-01,Pahang,rural,mobile_phone,99.2
+2020-01-01,Pahang,rural,mobile_phone,99.5
+2021-01-01,Pahang,rural,mobile_phone,99.5
+2022-01-01,Pahang,rural,mobile_phone,97.6
+2023-01-01,Pahang,rural,mobile_phone,97.7
+2024-01-01,Pahang,rural,mobile_phone,98.1
+2025-01-01,Pahang,rural,mobile_phone,98.4
+2019-01-01,Pahang,rural,tablet,6.4
+2020-01-01,Pahang,rural,tablet,6.1
+2021-01-01,Pahang,rural,tablet,23.4
+2022-01-01,Pahang,rural,tablet,15.7
+2023-01-01,Pahang,rural,tablet,15.9
+2024-01-01,Pahang,rural,tablet,16.5
+2025-01-01,Pahang,rural,tablet,16.8
+2019-01-01,Pahang,rural,computer,19.2
+2020-01-01,Pahang,rural,computer,20.5
+2021-01-01,Pahang,rural,computer,28.1
+2022-01-01,Pahang,rural,computer,25.6
+2023-01-01,Pahang,rural,computer,25.9
+2024-01-01,Pahang,rural,computer,26.3
+2025-01-01,Pahang,rural,computer,26.6
+2019-01-01,Pahang,rural,other,5.6
+2020-01-01,Pahang,rural,other,1.2
+2021-01-01,Pahang,rural,other,12.1
+2022-01-01,Pahang,rural,other,1.3
+2023-01-01,Pahang,rural,other,2.2
+2024-01-01,Pahang,rural,other,2.6
+2025-01-01,Pahang,rural,other,3.0
+2019-01-01,Perak,overall,mobile_phone,99.2
+2020-01-01,Perak,overall,mobile_phone,99.2
+2021-01-01,Perak,overall,mobile_phone,98.9
+2022-01-01,Perak,overall,mobile_phone,98.9
+2023-01-01,Perak,overall,mobile_phone,99.1
+2024-01-01,Perak,overall,mobile_phone,99.6
+2025-01-01,Perak,overall,mobile_phone,99.7
+2019-01-01,Perak,overall,tablet,8.8
+2020-01-01,Perak,overall,tablet,15.1
+2021-01-01,Perak,overall,tablet,28.7
+2022-01-01,Perak,overall,tablet,16.9
+2023-01-01,Perak,overall,tablet,17.7
+2024-01-01,Perak,overall,tablet,18.3
+2025-01-01,Perak,overall,tablet,18.8
+2019-01-01,Perak,overall,computer,29.0
+2020-01-01,Perak,overall,computer,33.4
+2021-01-01,Perak,overall,computer,41.7
+2022-01-01,Perak,overall,computer,36.5
+2023-01-01,Perak,overall,computer,36.8
+2024-01-01,Perak,overall,computer,37.1
+2025-01-01,Perak,overall,computer,37.7
+2019-01-01,Perak,overall,other,3.1
+2020-01-01,Perak,overall,other,1.5
+2021-01-01,Perak,overall,other,15.7
+2022-01-01,Perak,overall,other,22.8
+2023-01-01,Perak,overall,other,23.0
+2024-01-01,Perak,overall,other,23.1
+2025-01-01,Perak,overall,other,23.6
+2019-01-01,Perak,urban,mobile_phone,99.1
+2020-01-01,Perak,urban,mobile_phone,99.2
+2021-01-01,Perak,urban,mobile_phone,99.1
+2022-01-01,Perak,urban,mobile_phone,99.3
+2023-01-01,Perak,urban,mobile_phone,99.4
+2024-01-01,Perak,urban,mobile_phone,99.9
+2025-01-01,Perak,urban,mobile_phone,99.9
+2019-01-01,Perak,urban,tablet,9.7
+2020-01-01,Perak,urban,tablet,16.3
+2021-01-01,Perak,urban,tablet,29.8
+2022-01-01,Perak,urban,tablet,16.8
+2023-01-01,Perak,urban,tablet,17.6
+2024-01-01,Perak,urban,tablet,18.3
+2025-01-01,Perak,urban,tablet,18.7
+2019-01-01,Perak,urban,computer,31.4
+2020-01-01,Perak,urban,computer,35.6
+2021-01-01,Perak,urban,computer,44.5
+2022-01-01,Perak,urban,computer,37.7
+2023-01-01,Perak,urban,computer,37.9
+2024-01-01,Perak,urban,computer,38.4
+2025-01-01,Perak,urban,computer,39.0
+2019-01-01,Perak,urban,other,3.5
+2020-01-01,Perak,urban,other,1.6
+2021-01-01,Perak,urban,other,17.0
+2022-01-01,Perak,urban,other,24.9
+2023-01-01,Perak,urban,other,25.2
+2024-01-01,Perak,urban,other,25.5
+2025-01-01,Perak,urban,other,25.8
+2019-01-01,Perak,rural,mobile_phone,99.4
+2020-01-01,Perak,rural,mobile_phone,99.3
+2021-01-01,Perak,rural,mobile_phone,98.4
+2022-01-01,Perak,rural,mobile_phone,97.9
+2023-01-01,Perak,rural,mobile_phone,98.1
+2024-01-01,Perak,rural,mobile_phone,98.7
+2025-01-01,Perak,rural,mobile_phone,99.3
+2019-01-01,Perak,rural,tablet,5.0
+2020-01-01,Perak,rural,tablet,9.8
+2021-01-01,Perak,rural,tablet,24.0
+2022-01-01,Perak,rural,tablet,17.3
+2023-01-01,Perak,rural,tablet,17.7
+2024-01-01,Perak,rural,tablet,18.3
+2025-01-01,Perak,rural,tablet,18.8
+2019-01-01,Perak,rural,computer,19.2
+2020-01-01,Perak,rural,computer,23.6
+2021-01-01,Perak,rural,computer,29.9
+2022-01-01,Perak,rural,computer,33.1
+2023-01-01,Perak,rural,computer,33.8
+2024-01-01,Perak,rural,computer,34.1
+2025-01-01,Perak,rural,computer,34.6
+2019-01-01,Perak,rural,other,1.5
+2020-01-01,Perak,rural,other,1.0
+2021-01-01,Perak,rural,other,10.1
+2022-01-01,Perak,rural,other,16.9
+2023-01-01,Perak,rural,other,17.0
+2024-01-01,Perak,rural,other,17.8
+2025-01-01,Perak,rural,other,18.2
+2019-01-01,Perlis,overall,mobile_phone,99.5
+2020-01-01,Perlis,overall,mobile_phone,99.7
+2021-01-01,Perlis,overall,mobile_phone,99.9
+2022-01-01,Perlis,overall,mobile_phone,91.0
+2023-01-01,Perlis,overall,mobile_phone,91.2
+2024-01-01,Perlis,overall,mobile_phone,91.7
+2025-01-01,Perlis,overall,mobile_phone,92.2
+2019-01-01,Perlis,overall,tablet,7.3
+2020-01-01,Perlis,overall,tablet,12.7
+2021-01-01,Perlis,overall,tablet,27.0
+2022-01-01,Perlis,overall,tablet,33.8
+2023-01-01,Perlis,overall,tablet,34.5
+2024-01-01,Perlis,overall,tablet,34.8
+2025-01-01,Perlis,overall,tablet,35.3
+2019-01-01,Perlis,overall,computer,35.1
+2020-01-01,Perlis,overall,computer,37.8
+2021-01-01,Perlis,overall,computer,36.9
+2022-01-01,Perlis,overall,computer,26.3
+2023-01-01,Perlis,overall,computer,26.9
+2024-01-01,Perlis,overall,computer,27.2
+2025-01-01,Perlis,overall,computer,27.8
+2019-01-01,Perlis,overall,other,5.9
+2020-01-01,Perlis,overall,other,3.5
+2021-01-01,Perlis,overall,other,16.6
+2022-01-01,Perlis,overall,other,18.4
+2023-01-01,Perlis,overall,other,18.7
+2024-01-01,Perlis,overall,other,19.2
+2025-01-01,Perlis,overall,other,19.7
+2019-01-01,Perlis,urban,mobile_phone,99.8
+2020-01-01,Perlis,urban,mobile_phone,99.8
+2021-01-01,Perlis,urban,mobile_phone,99.9
+2022-01-01,Perlis,urban,mobile_phone,92.6
+2023-01-01,Perlis,urban,mobile_phone,92.5
+2024-01-01,Perlis,urban,mobile_phone,92.9
+2025-01-01,Perlis,urban,mobile_phone,93.4
+2019-01-01,Perlis,urban,tablet,9.2
+2020-01-01,Perlis,urban,tablet,16.4
+2021-01-01,Perlis,urban,tablet,29.9
+2022-01-01,Perlis,urban,tablet,38.2
+2023-01-01,Perlis,urban,tablet,38.8
+2024-01-01,Perlis,urban,tablet,39.1
+2025-01-01,Perlis,urban,tablet,39.5
+2019-01-01,Perlis,urban,computer,40.3
+2020-01-01,Perlis,urban,computer,42.3
+2021-01-01,Perlis,urban,computer,41.1
+2022-01-01,Perlis,urban,computer,30.9
+2023-01-01,Perlis,urban,computer,31.3
+2024-01-01,Perlis,urban,computer,31.8
+2025-01-01,Perlis,urban,computer,32.3
+2019-01-01,Perlis,urban,other,7.8
+2020-01-01,Perlis,urban,other,4.5
+2021-01-01,Perlis,urban,other,18.7
+2022-01-01,Perlis,urban,other,19.9
+2023-01-01,Perlis,urban,other,20.3
+2024-01-01,Perlis,urban,other,20.7
+2025-01-01,Perlis,urban,other,21.2
+2019-01-01,Perlis,rural,mobile_phone,99.0
+2020-01-01,Perlis,rural,mobile_phone,99.4
+2021-01-01,Perlis,rural,mobile_phone,99.7
+2022-01-01,Perlis,rural,mobile_phone,89.0
+2023-01-01,Perlis,rural,mobile_phone,89.7
+2024-01-01,Perlis,rural,mobile_phone,90.1
+2025-01-01,Perlis,rural,mobile_phone,90.6
+2019-01-01,Perlis,rural,tablet,3.3
+2020-01-01,Perlis,rural,tablet,3.7
+2021-01-01,Perlis,rural,tablet,20.2
+2022-01-01,Perlis,rural,tablet,28.3
+2023-01-01,Perlis,rural,tablet,29.2
+2024-01-01,Perlis,rural,tablet,29.6
+2025-01-01,Perlis,rural,tablet,30.1
+2019-01-01,Perlis,rural,computer,24.6
+2020-01-01,Perlis,rural,computer,26.7
+2021-01-01,Perlis,rural,computer,26.6
+2022-01-01,Perlis,rural,computer,20.7
+2023-01-01,Perlis,rural,computer,21.5
+2024-01-01,Perlis,rural,computer,21.5
+2025-01-01,Perlis,rural,computer,22.1
+2019-01-01,Perlis,rural,other,2.0
+2020-01-01,Perlis,rural,other,1.0
+2021-01-01,Perlis,rural,other,11.6
+2022-01-01,Perlis,rural,other,16.5
+2023-01-01,Perlis,rural,other,16.8
+2024-01-01,Perlis,rural,other,17.3
+2025-01-01,Perlis,rural,other,17.7
+2019-01-01,Pulau Pinang,overall,mobile_phone,99.6
+2020-01-01,Pulau Pinang,overall,mobile_phone,99.7
+2021-01-01,Pulau Pinang,overall,mobile_phone,99.9
+2022-01-01,Pulau Pinang,overall,mobile_phone,99.4
+2023-01-01,Pulau Pinang,overall,mobile_phone,99.6
+2024-01-01,Pulau Pinang,overall,mobile_phone,99.9
+2025-01-01,Pulau Pinang,overall,mobile_phone,99.9
+2019-01-01,Pulau Pinang,overall,tablet,9.2
+2020-01-01,Pulau Pinang,overall,tablet,12.4
+2021-01-01,Pulau Pinang,overall,tablet,31.8
+2022-01-01,Pulau Pinang,overall,tablet,31.8
+2023-01-01,Pulau Pinang,overall,tablet,32.0
+2024-01-01,Pulau Pinang,overall,tablet,32.4
+2025-01-01,Pulau Pinang,overall,tablet,32.9
+2019-01-01,Pulau Pinang,overall,computer,39.4
+2020-01-01,Pulau Pinang,overall,computer,40.9
+2021-01-01,Pulau Pinang,overall,computer,46.4
+2022-01-01,Pulau Pinang,overall,computer,43.2
+2023-01-01,Pulau Pinang,overall,computer,44.1
+2024-01-01,Pulau Pinang,overall,computer,44.5
+2025-01-01,Pulau Pinang,overall,computer,45.1
+2019-01-01,Pulau Pinang,overall,other,2.7
+2020-01-01,Pulau Pinang,overall,other,10.4
+2021-01-01,Pulau Pinang,overall,other,17.0
+2022-01-01,Pulau Pinang,overall,other,5.7
+2023-01-01,Pulau Pinang,overall,other,5.9
+2024-01-01,Pulau Pinang,overall,other,6.5
+2025-01-01,Pulau Pinang,overall,other,7.0
+2019-01-01,Pulau Pinang,urban,mobile_phone,99.7
+2020-01-01,Pulau Pinang,urban,mobile_phone,99.7
+2021-01-01,Pulau Pinang,urban,mobile_phone,99.9
+2022-01-01,Pulau Pinang,urban,mobile_phone,99.4
+2023-01-01,Pulau Pinang,urban,mobile_phone,99.6
+2024-01-01,Pulau Pinang,urban,mobile_phone,99.9
+2025-01-01,Pulau Pinang,urban,mobile_phone,99.9
+2019-01-01,Pulau Pinang,urban,tablet,9.3
+2020-01-01,Pulau Pinang,urban,tablet,12.3
+2021-01-01,Pulau Pinang,urban,tablet,31.8
+2022-01-01,Pulau Pinang,urban,tablet,32.2
+2023-01-01,Pulau Pinang,urban,tablet,32.3
+2024-01-01,Pulau Pinang,urban,tablet,32.7
+2025-01-01,Pulau Pinang,urban,tablet,33.2
+2019-01-01,Pulau Pinang,urban,computer,39.9
+2020-01-01,Pulau Pinang,urban,computer,41.5
+2021-01-01,Pulau Pinang,urban,computer,46.4
+2022-01-01,Pulau Pinang,urban,computer,44.0
+2023-01-01,Pulau Pinang,urban,computer,44.7
+2024-01-01,Pulau Pinang,urban,computer,45.2
+2025-01-01,Pulau Pinang,urban,computer,45.8
+2019-01-01,Pulau Pinang,urban,other,2.7
+2020-01-01,Pulau Pinang,urban,other,10.3
+2021-01-01,Pulau Pinang,urban,other,16.9
+2022-01-01,Pulau Pinang,urban,other,5.9
+2023-01-01,Pulau Pinang,urban,other,6.1
+2024-01-01,Pulau Pinang,urban,other,6.7
+2025-01-01,Pulau Pinang,urban,other,7.2
+2019-01-01,Pulau Pinang,rural,mobile_phone,97.7
+2020-01-01,Pulau Pinang,rural,mobile_phone,99.5
+2021-01-01,Pulau Pinang,rural,mobile_phone,99.7
+2022-01-01,Pulau Pinang,rural,mobile_phone,99.9
+2023-01-01,Pulau Pinang,rural,mobile_phone,99.9
+2024-01-01,Pulau Pinang,rural,mobile_phone,100.0
+2025-01-01,Pulau Pinang,rural,mobile_phone,100.0
+2019-01-01,Pulau Pinang,rural,tablet,6.6
+2020-01-01,Pulau Pinang,rural,tablet,15.0
+2021-01-01,Pulau Pinang,rural,tablet,30.8
+2022-01-01,Pulau Pinang,rural,tablet,27.6
+2023-01-01,Pulau Pinang,rural,tablet,28.3
+2024-01-01,Pulau Pinang,rural,tablet,28.6
+2025-01-01,Pulau Pinang,rural,tablet,29.0
+2019-01-01,Pulau Pinang,rural,computer,27.7
+2020-01-01,Pulau Pinang,rural,computer,27.7
+2021-01-01,Pulau Pinang,rural,computer,44.3
+2022-01-01,Pulau Pinang,rural,computer,35.6
+2023-01-01,Pulau Pinang,rural,computer,36.3
+2024-01-01,Pulau Pinang,rural,computer,36.8
+2025-01-01,Pulau Pinang,rural,computer,37.3
+2019-01-01,Pulau Pinang,rural,other,2.2
+2020-01-01,Pulau Pinang,rural,other,13.2
+2021-01-01,Pulau Pinang,rural,other,18.0
+2022-01-01,Pulau Pinang,rural,other,3.5
+2023-01-01,Pulau Pinang,rural,other,4.0
+2024-01-01,Pulau Pinang,rural,other,4.3
+2025-01-01,Pulau Pinang,rural,other,5.0
+2019-01-01,Sabah,overall,mobile_phone,99.8
+2020-01-01,Sabah,overall,mobile_phone,99.7
+2021-01-01,Sabah,overall,mobile_phone,99.8
+2022-01-01,Sabah,overall,mobile_phone,99.3
+2023-01-01,Sabah,overall,mobile_phone,99.5
+2024-01-01,Sabah,overall,mobile_phone,99.5
+2025-01-01,Sabah,overall,mobile_phone,99.5
+2019-01-01,Sabah,overall,tablet,10.0
+2020-01-01,Sabah,overall,tablet,8.6
+2021-01-01,Sabah,overall,tablet,22.4
+2022-01-01,Sabah,overall,tablet,16.5
+2023-01-01,Sabah,overall,tablet,16.9
+2024-01-01,Sabah,overall,tablet,17.4
+2025-01-01,Sabah,overall,tablet,18.0
+2019-01-01,Sabah,overall,computer,23.7
+2020-01-01,Sabah,overall,computer,24.0
+2021-01-01,Sabah,overall,computer,28.8
+2022-01-01,Sabah,overall,computer,24.8
+2023-01-01,Sabah,overall,computer,25.2
+2024-01-01,Sabah,overall,computer,25.9
+2025-01-01,Sabah,overall,computer,26.4
+2019-01-01,Sabah,overall,other,2.4
+2020-01-01,Sabah,overall,other,4.6
+2021-01-01,Sabah,overall,other,16.6
+2022-01-01,Sabah,overall,other,10.5
+2023-01-01,Sabah,overall,other,11.0
+2024-01-01,Sabah,overall,other,11.5
+2025-01-01,Sabah,overall,other,12.0
+2019-01-01,Sabah,urban,mobile_phone,99.8
+2020-01-01,Sabah,urban,mobile_phone,99.6
+2021-01-01,Sabah,urban,mobile_phone,99.8
+2022-01-01,Sabah,urban,mobile_phone,99.2
+2023-01-01,Sabah,urban,mobile_phone,99.4
+2024-01-01,Sabah,urban,mobile_phone,99.3
+2025-01-01,Sabah,urban,mobile_phone,99.4
+2019-01-01,Sabah,urban,tablet,13.4
+2020-01-01,Sabah,urban,tablet,11.2
+2021-01-01,Sabah,urban,tablet,26.2
+2022-01-01,Sabah,urban,tablet,18.6
+2023-01-01,Sabah,urban,tablet,19.0
+2024-01-01,Sabah,urban,tablet,19.6
+2025-01-01,Sabah,urban,tablet,20.2
+2019-01-01,Sabah,urban,computer,29.9
+2020-01-01,Sabah,urban,computer,29.2
+2021-01-01,Sabah,urban,computer,34.0
+2022-01-01,Sabah,urban,computer,29.9
+2023-01-01,Sabah,urban,computer,30.2
+2024-01-01,Sabah,urban,computer,31.2
+2025-01-01,Sabah,urban,computer,31.8
+2019-01-01,Sabah,urban,other,3.2
+2020-01-01,Sabah,urban,other,5.3
+2021-01-01,Sabah,urban,other,21.5
+2022-01-01,Sabah,urban,other,14.7
+2023-01-01,Sabah,urban,other,15.2
+2024-01-01,Sabah,urban,other,15.7
+2025-01-01,Sabah,urban,other,16.3
+2019-01-01,Sabah,rural,mobile_phone,99.8
+2020-01-01,Sabah,rural,mobile_phone,99.8
+2021-01-01,Sabah,rural,mobile_phone,99.8
+2022-01-01,Sabah,rural,mobile_phone,99.5
+2023-01-01,Sabah,rural,mobile_phone,99.6
+2024-01-01,Sabah,rural,mobile_phone,99.7
+2025-01-01,Sabah,rural,mobile_phone,99.6
+2019-01-01,Sabah,rural,tablet,4.3
+2020-01-01,Sabah,rural,tablet,3.3
+2021-01-01,Sabah,rural,tablet,15.8
+2022-01-01,Sabah,rural,tablet,14.0
+2023-01-01,Sabah,rural,tablet,14.3
+2024-01-01,Sabah,rural,tablet,14.7
+2025-01-01,Sabah,rural,tablet,15.3
+2019-01-01,Sabah,rural,computer,13.1
+2020-01-01,Sabah,rural,computer,13.5
+2021-01-01,Sabah,rural,computer,20.0
+2022-01-01,Sabah,rural,computer,18.6
+2023-01-01,Sabah,rural,computer,19.0
+2024-01-01,Sabah,rural,computer,19.3
+2025-01-01,Sabah,rural,computer,20.0
+2019-01-01,Sabah,rural,other,1.1
+2020-01-01,Sabah,rural,other,3.1
+2021-01-01,Sabah,rural,other,8.4
+2022-01-01,Sabah,rural,other,5.4
+2023-01-01,Sabah,rural,other,5.8
+2024-01-01,Sabah,rural,other,6.3
+2025-01-01,Sabah,rural,other,6.8
+2019-01-01,Sarawak,overall,mobile_phone,99.7
+2020-01-01,Sarawak,overall,mobile_phone,99.6
+2021-01-01,Sarawak,overall,mobile_phone,99.8
+2022-01-01,Sarawak,overall,mobile_phone,99.1
+2023-01-01,Sarawak,overall,mobile_phone,99.2
+2024-01-01,Sarawak,overall,mobile_phone,99.5
+2025-01-01,Sarawak,overall,mobile_phone,99.6
+2019-01-01,Sarawak,overall,tablet,10.2
+2020-01-01,Sarawak,overall,tablet,11.0
+2021-01-01,Sarawak,overall,tablet,29.4
+2022-01-01,Sarawak,overall,tablet,19.1
+2023-01-01,Sarawak,overall,tablet,19.4
+2024-01-01,Sarawak,overall,tablet,19.9
+2025-01-01,Sarawak,overall,tablet,20.6
+2019-01-01,Sarawak,overall,computer,31.7
+2020-01-01,Sarawak,overall,computer,32.1
+2021-01-01,Sarawak,overall,computer,35.0
+2022-01-01,Sarawak,overall,computer,29.4
+2023-01-01,Sarawak,overall,computer,29.8
+2024-01-01,Sarawak,overall,computer,29.9
+2025-01-01,Sarawak,overall,computer,31.0
+2019-01-01,Sarawak,overall,other,4.0
+2020-01-01,Sarawak,overall,other,12.3
+2021-01-01,Sarawak,overall,other,14.9
+2022-01-01,Sarawak,overall,other,6.2
+2023-01-01,Sarawak,overall,other,6.6
+2024-01-01,Sarawak,overall,other,7.1
+2025-01-01,Sarawak,overall,other,7.7
+2019-01-01,Sarawak,urban,mobile_phone,99.6
+2020-01-01,Sarawak,urban,mobile_phone,99.6
+2021-01-01,Sarawak,urban,mobile_phone,99.8
+2022-01-01,Sarawak,urban,mobile_phone,99.1
+2023-01-01,Sarawak,urban,mobile_phone,99.2
+2024-01-01,Sarawak,urban,mobile_phone,99.6
+2025-01-01,Sarawak,urban,mobile_phone,99.7
+2019-01-01,Sarawak,urban,tablet,12.8
+2020-01-01,Sarawak,urban,tablet,14.0
+2021-01-01,Sarawak,urban,tablet,35.0
+2022-01-01,Sarawak,urban,tablet,21.4
+2023-01-01,Sarawak,urban,tablet,21.7
+2024-01-01,Sarawak,urban,tablet,22.3
+2025-01-01,Sarawak,urban,tablet,22.9
+2019-01-01,Sarawak,urban,computer,38.4
+2020-01-01,Sarawak,urban,computer,38.6
+2021-01-01,Sarawak,urban,computer,43.3
+2022-01-01,Sarawak,urban,computer,37.0
+2023-01-01,Sarawak,urban,computer,37.5
+2024-01-01,Sarawak,urban,computer,38.3
+2025-01-01,Sarawak,urban,computer,38.8
+2019-01-01,Sarawak,urban,other,5.2
+2020-01-01,Sarawak,urban,other,16.6
+2021-01-01,Sarawak,urban,other,17.6
+2022-01-01,Sarawak,urban,other,7.6
+2023-01-01,Sarawak,urban,other,8.0
+2024-01-01,Sarawak,urban,other,8.7
+2025-01-01,Sarawak,urban,other,9.2
+2019-01-01,Sarawak,rural,mobile_phone,99.8
+2020-01-01,Sarawak,rural,mobile_phone,99.7
+2021-01-01,Sarawak,rural,mobile_phone,99.7
+2022-01-01,Sarawak,rural,mobile_phone,99.1
+2023-01-01,Sarawak,rural,mobile_phone,99.2
+2024-01-01,Sarawak,rural,mobile_phone,99.3
+2025-01-01,Sarawak,rural,mobile_phone,99.4
+2019-01-01,Sarawak,rural,tablet,4.8
+2020-01-01,Sarawak,rural,tablet,4.3
+2021-01-01,Sarawak,rural,tablet,19.5
+2022-01-01,Sarawak,rural,tablet,15.6
+2023-01-01,Sarawak,rural,tablet,16.0
+2024-01-01,Sarawak,rural,tablet,16.7
+2025-01-01,Sarawak,rural,tablet,17.3
+2019-01-01,Sarawak,rural,computer,17.7
+2020-01-01,Sarawak,rural,computer,17.8
+2021-01-01,Sarawak,rural,computer,20.3
+2022-01-01,Sarawak,rural,computer,17.8
+2023-01-01,Sarawak,rural,computer,18.2
+2024-01-01,Sarawak,rural,computer,19.0
+2025-01-01,Sarawak,rural,computer,19.7
+2019-01-01,Sarawak,rural,other,1.5
+2020-01-01,Sarawak,rural,other,2.8
+2021-01-01,Sarawak,rural,other,10.1
+2022-01-01,Sarawak,rural,other,4.1
+2023-01-01,Sarawak,rural,other,4.5
+2024-01-01,Sarawak,rural,other,4.9
+2025-01-01,Sarawak,rural,other,5.4
+2019-01-01,Selangor,overall,mobile_phone,99.7
+2020-01-01,Selangor,overall,mobile_phone,99.8
+2021-01-01,Selangor,overall,mobile_phone,99.9
+2022-01-01,Selangor,overall,mobile_phone,99.3
+2023-01-01,Selangor,overall,mobile_phone,99.4
+2024-01-01,Selangor,overall,mobile_phone,100.0
+2025-01-01,Selangor,overall,mobile_phone,100.0
+2019-01-01,Selangor,overall,tablet,20.9
+2020-01-01,Selangor,overall,tablet,21.4
+2021-01-01,Selangor,overall,tablet,35.9
+2022-01-01,Selangor,overall,tablet,37.3
+2023-01-01,Selangor,overall,tablet,37.4
+2024-01-01,Selangor,overall,tablet,37.7
+2025-01-01,Selangor,overall,tablet,38.0
+2019-01-01,Selangor,overall,computer,50.2
+2020-01-01,Selangor,overall,computer,52.2
+2021-01-01,Selangor,overall,computer,53.3
+2022-01-01,Selangor,overall,computer,49.9
+2023-01-01,Selangor,overall,computer,50.0
+2024-01-01,Selangor,overall,computer,50.4
+2025-01-01,Selangor,overall,computer,50.8
+2019-01-01,Selangor,overall,other,14.1
+2020-01-01,Selangor,overall,other,12.1
+2021-01-01,Selangor,overall,other,24.6
+2022-01-01,Selangor,overall,other,25.2
+2023-01-01,Selangor,overall,other,25.5
+2024-01-01,Selangor,overall,other,25.8
+2025-01-01,Selangor,overall,other,26.3
+2019-01-01,Selangor,urban,mobile_phone,99.7
+2020-01-01,Selangor,urban,mobile_phone,99.8
+2021-01-01,Selangor,urban,mobile_phone,99.9
+2022-01-01,Selangor,urban,mobile_phone,99.4
+2023-01-01,Selangor,urban,mobile_phone,99.4
+2024-01-01,Selangor,urban,mobile_phone,100.0
+2025-01-01,Selangor,urban,mobile_phone,100.0
+2019-01-01,Selangor,urban,tablet,21.4
+2020-01-01,Selangor,urban,tablet,21.8
+2021-01-01,Selangor,urban,tablet,36.2
+2022-01-01,Selangor,urban,tablet,37.5
+2023-01-01,Selangor,urban,tablet,37.7
+2024-01-01,Selangor,urban,tablet,38.0
+2025-01-01,Selangor,urban,tablet,38.4
+2019-01-01,Selangor,urban,computer,51.0
+2020-01-01,Selangor,urban,computer,52.8
+2021-01-01,Selangor,urban,computer,54.0
+2022-01-01,Selangor,urban,computer,50.2
+2023-01-01,Selangor,urban,computer,50.4
+2024-01-01,Selangor,urban,computer,50.8
+2025-01-01,Selangor,urban,computer,51.2
+2019-01-01,Selangor,urban,other,14.2
+2020-01-01,Selangor,urban,other,12.2
+2021-01-01,Selangor,urban,other,25.0
+2022-01-01,Selangor,urban,other,25.4
+2023-01-01,Selangor,urban,other,25.6
+2024-01-01,Selangor,urban,other,26.0
+2025-01-01,Selangor,urban,other,26.5
+2019-01-01,Selangor,rural,mobile_phone,99.7
+2020-01-01,Selangor,rural,mobile_phone,99.9
+2021-01-01,Selangor,rural,mobile_phone,99.3
+2022-01-01,Selangor,rural,mobile_phone,97.9
+2023-01-01,Selangor,rural,mobile_phone,98.8
+2024-01-01,Selangor,rural,mobile_phone,99.3
+2025-01-01,Selangor,rural,mobile_phone,99.4
+2019-01-01,Selangor,rural,tablet,10.4
+2020-01-01,Selangor,rural,tablet,14.2
+2021-01-01,Selangor,rural,tablet,30.2
+2022-01-01,Selangor,rural,tablet,30.2
+2023-01-01,Selangor,rural,tablet,30.7
+2024-01-01,Selangor,rural,tablet,31.5
+2025-01-01,Selangor,rural,tablet,31.9
+2019-01-01,Selangor,rural,computer,33.9
+2020-01-01,Selangor,rural,computer,41.2
+2021-01-01,Selangor,rural,computer,40.7
+2022-01-01,Selangor,rural,computer,41.9
+2023-01-01,Selangor,rural,computer,42.3
+2024-01-01,Selangor,rural,computer,43.1
+2025-01-01,Selangor,rural,computer,43.7
+2019-01-01,Selangor,rural,other,11.9
+2020-01-01,Selangor,rural,other,10.4
+2021-01-01,Selangor,rural,other,17.4
+2022-01-01,Selangor,rural,other,21.3
+2023-01-01,Selangor,rural,other,21.7
+2024-01-01,Selangor,rural,other,22.1
+2025-01-01,Selangor,rural,other,22.6
+2019-01-01,Terengganu,overall,mobile_phone,99.4
+2020-01-01,Terengganu,overall,mobile_phone,99.6
+2021-01-01,Terengganu,overall,mobile_phone,99.7
+2022-01-01,Terengganu,overall,mobile_phone,99.4
+2023-01-01,Terengganu,overall,mobile_phone,99.4
+2024-01-01,Terengganu,overall,mobile_phone,99.8
+2025-01-01,Terengganu,overall,mobile_phone,99.8
+2019-01-01,Terengganu,overall,tablet,11.3
+2020-01-01,Terengganu,overall,tablet,15.2
+2021-01-01,Terengganu,overall,tablet,35.2
+2022-01-01,Terengganu,overall,tablet,28.1
+2023-01-01,Terengganu,overall,tablet,28.5
+2024-01-01,Terengganu,overall,tablet,28.7
+2025-01-01,Terengganu,overall,tablet,29.2
+2019-01-01,Terengganu,overall,computer,38.2
+2020-01-01,Terengganu,overall,computer,37.2
+2021-01-01,Terengganu,overall,computer,46.3
+2022-01-01,Terengganu,overall,computer,24.2
+2023-01-01,Terengganu,overall,computer,24.6
+2024-01-01,Terengganu,overall,computer,25.1
+2025-01-01,Terengganu,overall,computer,25.5
+2019-01-01,Terengganu,overall,other,4.7
+2020-01-01,Terengganu,overall,other,6.5
+2021-01-01,Terengganu,overall,other,20.2
+2022-01-01,Terengganu,overall,other,3.0
+2023-01-01,Terengganu,overall,other,3.4
+2024-01-01,Terengganu,overall,other,3.7
+2025-01-01,Terengganu,overall,other,4.1
+2019-01-01,Terengganu,urban,mobile_phone,99.4
+2020-01-01,Terengganu,urban,mobile_phone,99.5
+2021-01-01,Terengganu,urban,mobile_phone,99.7
+2022-01-01,Terengganu,urban,mobile_phone,99.6
+2023-01-01,Terengganu,urban,mobile_phone,99.6
+2024-01-01,Terengganu,urban,mobile_phone,99.9
+2025-01-01,Terengganu,urban,mobile_phone,99.9
+2019-01-01,Terengganu,urban,tablet,11.9
+2020-01-01,Terengganu,urban,tablet,17.9
+2021-01-01,Terengganu,urban,tablet,36.7
+2022-01-01,Terengganu,urban,tablet,26.0
+2023-01-01,Terengganu,urban,tablet,26.3
+2024-01-01,Terengganu,urban,tablet,26.6
+2025-01-01,Terengganu,urban,tablet,27.2
+2019-01-01,Terengganu,urban,computer,43.0
+2020-01-01,Terengganu,urban,computer,41.8
+2021-01-01,Terengganu,urban,computer,49.1
+2022-01-01,Terengganu,urban,computer,25.0
+2023-01-01,Terengganu,urban,computer,25.5
+2024-01-01,Terengganu,urban,computer,25.9
+2025-01-01,Terengganu,urban,computer,26.3
+2019-01-01,Terengganu,urban,other,5.8
+2020-01-01,Terengganu,urban,other,8.0
+2021-01-01,Terengganu,urban,other,20.9
+2022-01-01,Terengganu,urban,other,3.4
+2023-01-01,Terengganu,urban,other,3.7
+2024-01-01,Terengganu,urban,other,4.0
+2025-01-01,Terengganu,urban,other,4.4
+2019-01-01,Terengganu,rural,mobile_phone,99.5
+2020-01-01,Terengganu,rural,mobile_phone,99.8
+2021-01-01,Terengganu,rural,mobile_phone,99.9
+2022-01-01,Terengganu,rural,mobile_phone,99.0
+2023-01-01,Terengganu,rural,mobile_phone,99.1
+2024-01-01,Terengganu,rural,mobile_phone,99.5
+2025-01-01,Terengganu,rural,mobile_phone,99.6
+2019-01-01,Terengganu,rural,tablet,9.8
+2020-01-01,Terengganu,rural,tablet,9.0
+2021-01-01,Terengganu,rural,tablet,31.5
+2022-01-01,Terengganu,rural,tablet,31.9
+2023-01-01,Terengganu,rural,tablet,32.2
+2024-01-01,Terengganu,rural,tablet,32.5
+2025-01-01,Terengganu,rural,tablet,32.9
+2019-01-01,Terengganu,rural,computer,25.2
+2020-01-01,Terengganu,rural,computer,26.5
+2021-01-01,Terengganu,rural,computer,39.7
+2022-01-01,Terengganu,rural,computer,22.8
+2023-01-01,Terengganu,rural,computer,23.2
+2024-01-01,Terengganu,rural,computer,23.6
+2025-01-01,Terengganu,rural,computer,24.0
+2019-01-01,Terengganu,rural,other,2.0
+2020-01-01,Terengganu,rural,other,3.2
+2021-01-01,Terengganu,rural,other,18.5
+2022-01-01,Terengganu,rural,other,2.3
+2023-01-01,Terengganu,rural,other,2.8
+2024-01-01,Terengganu,rural,other,3.1
+2025-01-01,Terengganu,rural,other,3.5
+2019-01-01,W.P. Kuala Lumpur,overall,mobile_phone,99.1
+2020-01-01,W.P. Kuala Lumpur,overall,mobile_phone,98.9
+2021-01-01,W.P. Kuala Lumpur,overall,mobile_phone,99.2
+2022-01-01,W.P. Kuala Lumpur,overall,mobile_phone,94.8
+2023-01-01,W.P. Kuala Lumpur,overall,mobile_phone,95.6
+2024-01-01,W.P. Kuala Lumpur,overall,mobile_phone,95.9
+2025-01-01,W.P. Kuala Lumpur,overall,mobile_phone,96.4
+2019-01-01,W.P. Kuala Lumpur,overall,tablet,26.1
+2020-01-01,W.P. Kuala Lumpur,overall,tablet,29.9
+2021-01-01,W.P. Kuala Lumpur,overall,tablet,36.6
+2022-01-01,W.P. Kuala Lumpur,overall,tablet,37.7
+2023-01-01,W.P. Kuala Lumpur,overall,tablet,38.1
+2024-01-01,W.P. Kuala Lumpur,overall,tablet,38.4
+2025-01-01,W.P. Kuala Lumpur,overall,tablet,38.9
+2019-01-01,W.P. Kuala Lumpur,overall,computer,52.4
+2020-01-01,W.P. Kuala Lumpur,overall,computer,62.0
+2021-01-01,W.P. Kuala Lumpur,overall,computer,64.3
+2022-01-01,W.P. Kuala Lumpur,overall,computer,49.7
+2023-01-01,W.P. Kuala Lumpur,overall,computer,50.4
+2024-01-01,W.P. Kuala Lumpur,overall,computer,50.8
+2025-01-01,W.P. Kuala Lumpur,overall,computer,51.3
+2019-01-01,W.P. Kuala Lumpur,overall,other,16.2
+2020-01-01,W.P. Kuala Lumpur,overall,other,17.2
+2021-01-01,W.P. Kuala Lumpur,overall,other,20.4
+2022-01-01,W.P. Kuala Lumpur,overall,other,15.1
+2023-01-01,W.P. Kuala Lumpur,overall,other,15.8
+2024-01-01,W.P. Kuala Lumpur,overall,other,16.4
+2025-01-01,W.P. Kuala Lumpur,overall,other,16.8
+2019-01-01,W.P. Kuala Lumpur,urban,mobile_phone,99.1
+2020-01-01,W.P. Kuala Lumpur,urban,mobile_phone,98.9
+2021-01-01,W.P. Kuala Lumpur,urban,mobile_phone,99.2
+2022-01-01,W.P. Kuala Lumpur,urban,mobile_phone,94.8
+2023-01-01,W.P. Kuala Lumpur,urban,mobile_phone,95.6
+2024-01-01,W.P. Kuala Lumpur,urban,mobile_phone,95.9
+2025-01-01,W.P. Kuala Lumpur,urban,mobile_phone,96.4
+2019-01-01,W.P. Kuala Lumpur,urban,tablet,26.1
+2020-01-01,W.P. Kuala Lumpur,urban,tablet,29.9
+2021-01-01,W.P. Kuala Lumpur,urban,tablet,36.6
+2022-01-01,W.P. Kuala Lumpur,urban,tablet,37.7
+2023-01-01,W.P. Kuala Lumpur,urban,tablet,38.1
+2024-01-01,W.P. Kuala Lumpur,urban,tablet,38.4
+2025-01-01,W.P. Kuala Lumpur,urban,tablet,38.9
+2019-01-01,W.P. Kuala Lumpur,urban,computer,52.4
+2020-01-01,W.P. Kuala Lumpur,urban,computer,62.0
+2021-01-01,W.P. Kuala Lumpur,urban,computer,64.3
+2022-01-01,W.P. Kuala Lumpur,urban,computer,49.7
+2023-01-01,W.P. Kuala Lumpur,urban,computer,50.4
+2024-01-01,W.P. Kuala Lumpur,urban,computer,50.8
+2025-01-01,W.P. Kuala Lumpur,urban,computer,51.3
+2019-01-01,W.P. Kuala Lumpur,urban,other,16.2
+2020-01-01,W.P. Kuala Lumpur,urban,other,17.2
+2021-01-01,W.P. Kuala Lumpur,urban,other,20.4
+2022-01-01,W.P. Kuala Lumpur,urban,other,15.1
+2023-01-01,W.P. Kuala Lumpur,urban,other,15.8
+2024-01-01,W.P. Kuala Lumpur,urban,other,16.4
+2025-01-01,W.P. Kuala Lumpur,urban,other,16.8
+2019-01-01,W.P. Labuan,overall,mobile_phone,99.8
+2020-01-01,W.P. Labuan,overall,mobile_phone,99.5
+2021-01-01,W.P. Labuan,overall,mobile_phone,99.5
+2022-01-01,W.P. Labuan,overall,mobile_phone,92.2
+2023-01-01,W.P. Labuan,overall,mobile_phone,93.5
+2024-01-01,W.P. Labuan,overall,mobile_phone,93.7
+2025-01-01,W.P. Labuan,overall,mobile_phone,94.0
+2019-01-01,W.P. Labuan,overall,tablet,24.0
+2020-01-01,W.P. Labuan,overall,tablet,33.0
+2021-01-01,W.P. Labuan,overall,tablet,36.4
+2022-01-01,W.P. Labuan,overall,tablet,34.7
+2023-01-01,W.P. Labuan,overall,tablet,35.3
+2024-01-01,W.P. Labuan,overall,tablet,35.6
+2025-01-01,W.P. Labuan,overall,tablet,36.2
+2019-01-01,W.P. Labuan,overall,computer,45.8
+2020-01-01,W.P. Labuan,overall,computer,49.7
+2021-01-01,W.P. Labuan,overall,computer,60.0
+2022-01-01,W.P. Labuan,overall,computer,69.5
+2023-01-01,W.P. Labuan,overall,computer,72.6
+2024-01-01,W.P. Labuan,overall,computer,72.2
+2025-01-01,W.P. Labuan,overall,computer,72.3
+2019-01-01,W.P. Labuan,overall,other,22.0
+2020-01-01,W.P. Labuan,overall,other,27.0
+2021-01-01,W.P. Labuan,overall,other,39.5
+2022-01-01,W.P. Labuan,overall,other,9.7
+2023-01-01,W.P. Labuan,overall,other,10.4
+2024-01-01,W.P. Labuan,overall,other,10.7
+2025-01-01,W.P. Labuan,overall,other,11.2
+2019-01-01,W.P. Labuan,urban,mobile_phone,99.9
+2020-01-01,W.P. Labuan,urban,mobile_phone,99.5
+2021-01-01,W.P. Labuan,urban,mobile_phone,99.6
+2022-01-01,W.P. Labuan,urban,mobile_phone,94.2
+2023-01-01,W.P. Labuan,urban,mobile_phone,94.7
+2024-01-01,W.P. Labuan,urban,mobile_phone,95.2
+2025-01-01,W.P. Labuan,urban,mobile_phone,95.7
+2019-01-01,W.P. Labuan,urban,tablet,26.1
+2020-01-01,W.P. Labuan,urban,tablet,32.8
+2021-01-01,W.P. Labuan,urban,tablet,36.3
+2022-01-01,W.P. Labuan,urban,tablet,34.7
+2023-01-01,W.P. Labuan,urban,tablet,35.3
+2024-01-01,W.P. Labuan,urban,tablet,35.6
+2025-01-01,W.P. Labuan,urban,tablet,36.2
+2019-01-01,W.P. Labuan,urban,computer,49.4
+2020-01-01,W.P. Labuan,urban,computer,53.5
+2021-01-01,W.P. Labuan,urban,computer,62.8
+2022-01-01,W.P. Labuan,urban,computer,76.7
+2023-01-01,W.P. Labuan,urban,computer,77.0
+2024-01-01,W.P. Labuan,urban,computer,77.8
+2025-01-01,W.P. Labuan,urban,computer,78.5
+2019-01-01,W.P. Labuan,urban,other,23.3
+2020-01-01,W.P. Labuan,urban,other,25.7
+2021-01-01,W.P. Labuan,urban,other,42.4
+2022-01-01,W.P. Labuan,urban,other,10.4
+2023-01-01,W.P. Labuan,urban,other,10.9
+2024-01-01,W.P. Labuan,urban,other,11.3
+2025-01-01,W.P. Labuan,urban,other,11.8
+2019-01-01,W.P. Labuan,rural,mobile_phone,99.6
+2020-01-01,W.P. Labuan,rural,mobile_phone,99.7
+2021-01-01,W.P. Labuan,rural,mobile_phone,99.0
+2022-01-01,W.P. Labuan,rural,mobile_phone,76.1
+2023-01-01,W.P. Labuan,rural,mobile_phone,76.7
+2024-01-01,W.P. Labuan,rural,mobile_phone,77.7
+2025-01-01,W.P. Labuan,rural,mobile_phone,78.2
+2019-01-01,W.P. Labuan,rural,tablet,14.7
+2020-01-01,W.P. Labuan,rural,tablet,34.3
+2021-01-01,W.P. Labuan,rural,tablet,37.0
+2022-01-01,W.P. Labuan,rural,tablet,34.3
+2023-01-01,W.P. Labuan,rural,tablet,35.1
+2024-01-01,W.P. Labuan,rural,tablet,35.6
+2025-01-01,W.P. Labuan,rural,tablet,36.2
+2019-01-01,W.P. Labuan,rural,computer,30.0
+2020-01-01,W.P. Labuan,rural,computer,27.3
+2021-01-01,W.P. Labuan,rural,computer,45.5
+2022-01-01,W.P. Labuan,rural,computer,12.6
+2023-01-01,W.P. Labuan,rural,computer,13.0
+2024-01-01,W.P. Labuan,rural,computer,13.8
+2025-01-01,W.P. Labuan,rural,computer,14.5
+2019-01-01,W.P. Labuan,rural,other,16.4
+2020-01-01,W.P. Labuan,rural,other,34.8
+2021-01-01,W.P. Labuan,rural,other,24.4
+2022-01-01,W.P. Labuan,rural,other,3.9
+2023-01-01,W.P. Labuan,rural,other,4.0
+2024-01-01,W.P. Labuan,rural,other,4.3
+2025-01-01,W.P. Labuan,rural,other,4.9
+2019-01-01,W.P. Putrajaya,overall,mobile_phone,99.4
+2020-01-01,W.P. Putrajaya,overall,mobile_phone,99.8
+2021-01-01,W.P. Putrajaya,overall,mobile_phone,99.7
+2022-01-01,W.P. Putrajaya,overall,mobile_phone,97.9
+2023-01-01,W.P. Putrajaya,overall,mobile_phone,98.0
+2024-01-01,W.P. Putrajaya,overall,mobile_phone,98.4
+2025-01-01,W.P. Putrajaya,overall,mobile_phone,98.9
+2019-01-01,W.P. Putrajaya,overall,tablet,28.1
+2020-01-01,W.P. Putrajaya,overall,tablet,35.9
+2021-01-01,W.P. Putrajaya,overall,tablet,52.0
+2022-01-01,W.P. Putrajaya,overall,tablet,56.4
+2023-01-01,W.P. Putrajaya,overall,tablet,56.7
+2024-01-01,W.P. Putrajaya,overall,tablet,57.0
+2025-01-01,W.P. Putrajaya,overall,tablet,57.6
+2019-01-01,W.P. Putrajaya,overall,computer,59.9
+2020-01-01,W.P. Putrajaya,overall,computer,70.7
+2021-01-01,W.P. Putrajaya,overall,computer,77.8
+2022-01-01,W.P. Putrajaya,overall,computer,74.8
+2023-01-01,W.P. Putrajaya,overall,computer,75.0
+2024-01-01,W.P. Putrajaya,overall,computer,75.3
+2025-01-01,W.P. Putrajaya,overall,computer,75.9
+2019-01-01,W.P. Putrajaya,overall,other,12.6
+2020-01-01,W.P. Putrajaya,overall,other,28.6
+2021-01-01,W.P. Putrajaya,overall,other,40.6
+2022-01-01,W.P. Putrajaya,overall,other,21.6
+2023-01-01,W.P. Putrajaya,overall,other,22.2
+2024-01-01,W.P. Putrajaya,overall,other,22.6
+2025-01-01,W.P. Putrajaya,overall,other,23.0
+2019-01-01,W.P. Putrajaya,urban,mobile_phone,99.4
+2020-01-01,W.P. Putrajaya,urban,mobile_phone,99.8
+2021-01-01,W.P. Putrajaya,urban,mobile_phone,99.7
+2022-01-01,W.P. Putrajaya,urban,mobile_phone,97.9
+2023-01-01,W.P. Putrajaya,urban,mobile_phone,98.0
+2024-01-01,W.P. Putrajaya,urban,mobile_phone,98.4
+2025-01-01,W.P. Putrajaya,urban,mobile_phone,98.9
+2019-01-01,W.P. Putrajaya,urban,tablet,28.1
+2020-01-01,W.P. Putrajaya,urban,tablet,35.9
+2021-01-01,W.P. Putrajaya,urban,tablet,52.0
+2022-01-01,W.P. Putrajaya,urban,tablet,56.4
+2023-01-01,W.P. Putrajaya,urban,tablet,56.7
+2024-01-01,W.P. Putrajaya,urban,tablet,57.0
+2025-01-01,W.P. Putrajaya,urban,tablet,57.6
+2019-01-01,W.P. Putrajaya,urban,computer,59.9
+2020-01-01,W.P. Putrajaya,urban,computer,70.7
+2021-01-01,W.P. Putrajaya,urban,computer,77.8
+2022-01-01,W.P. Putrajaya,urban,computer,74.8
+2023-01-01,W.P. Putrajaya,urban,computer,75.0
+2024-01-01,W.P. Putrajaya,urban,computer,75.3
+2025-01-01,W.P. Putrajaya,urban,computer,75.9
+2019-01-01,W.P. Putrajaya,urban,other,12.6
+2020-01-01,W.P. Putrajaya,urban,other,28.6
+2021-01-01,W.P. Putrajaya,urban,other,40.6
+2022-01-01,W.P. Putrajaya,urban,other,21.6
+2023-01-01,W.P. Putrajaya,urban,other,22.2
+2024-01-01,W.P. Putrajaya,urban,other,22.6
+2025-01-01,W.P. Putrajaya,urban,other,23.0

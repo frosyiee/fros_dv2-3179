@@ -1,0 +1,179 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "right": 5,
+    "left": 5,
+    "top": 5,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/cpi_index_state.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.division == 'overall'"
+    }
+  ],
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": [
+              "state"
+            ],
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        },
+        {
+          "name": "zoomPan",
+          "select": {
+            "type": "interval",
+            "encodings": [
+              "x",
+              "y"
+            ]
+          },
+          "bind": "scales"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone",
+        "clip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "title": null,
+          "scale":{
+            "domain":["2019-01-01", "2026-09-01"]
+          },
+          "axis": {
+            "format": "%Y"
+          }
+        },
+        "y": {
+          "field": "index_rebased",
+          "type": "quantitative",
+          "title": "Prices (January 2019 = 100)",
+          "scale": {
+            "zero": false
+          }
+        },
+        "detail": {
+          "field": "state",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": [
+            {
+              "param": "hover",
+              "empty": false,
+              "value": "#09251C"
+            },
+            {
+              "test": "datum.state == 'W.P. Putrajaya' || datum.state == 'W.P. Labuan'",
+              "value": "#09251C"
+            }
+          ],
+          "value": "#B4E4D6"
+        },
+        "strokeWidth": {
+          "condition": {
+            "param": "hover",
+            "empty": false,
+            "value": 3.5
+          },
+          "value": 1.5
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state == 'W.P. Putrajaya' || datum.state == 'W.P. Labuan'"
+        },
+        {
+          "window": [{ "op": "row_number", "as": "rn" }],
+          "sort": [{ "field": "date", "order": "ascending" }],
+          "groupby": ["state"]
+        },
+        {
+          "joinaggregate": [{ "op": "count", "as": "n" }],
+          "groupby": ["state"]
+        },
+        {
+          "filter": "datum.rn == floor(datum.n * 0.5)"
+        }
+      ],
+      "layer": [
+        {
+          "transform": [{ "filter": "datum.state == 'W.P. Putrajaya'" }],
+          "mark": {
+            "type": "text", "align": "right", "baseline": "bottom", "dx": -3, "dy": -10,
+            "stroke": "white", "strokeWidth": 4, "fontWeight": "bold", "clip": true
+          },
+          "encoding": {
+            "x": { "field": "date", "type": "temporal" },
+            "y": { "field": "index_rebased", "type": "quantitative" },
+            "text": { "field": "state" }
+          }
+        },
+        {
+          "transform": [{ "filter": "datum.state == 'W.P. Putrajaya'" }],
+          "mark": {
+            "type": "text", "align": "right", "baseline": "bottom", "dx": -3, "dy": -10,
+            "fontWeight": "bold", "color": "#1b2540", "clip": true
+          },
+          "encoding": {
+            "x": { "field": "date", "type": "temporal" },
+            "y": { "field": "index_rebased", "type": "quantitative" },
+            "text": { "field": "state" }
+          }
+        },
+        {
+          "transform": [{ "filter": "datum.state == 'W.P. Labuan'" }],
+          "mark": {
+            "type": "text", "align": "left", "baseline": "top", "dx": -4, "dy": 6,
+            "stroke": "white", "strokeWidth": 4, "fontWeight": "bold", "clip": true
+          },
+          "encoding": {
+            "x": { "field": "date", "type": "temporal" },
+            "y": { "field": "index_rebased", "type": "quantitative" },
+            "text": { "field": "state" }
+          }
+        },
+        {
+          "transform": [{ "filter": "datum.state == 'W.P. Labuan'" }],
+          "mark": {
+            "type": "text", "align": "left", "baseline": "top", "dx": -4, "dy": 6,
+            "fontWeight": "bold", "color": "#1b2540", "clip": true
+          },
+          "encoding": {
+            "x": { "field": "date", "type": "temporal" },
+            "y": { "field": "index_rebased", "type": "quantitative" },
+            "text": { "field": "state" }
+          }
+        }
+      ]
+    }
+  ]
+}

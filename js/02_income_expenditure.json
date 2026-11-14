@@ -1,0 +1,126 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/income_expenditure_state.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.year == 2024"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": {
+        "field": "income_mean",
+        "order": "descending"
+      },
+      "title": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#c9cfc4",
+        "strokeWidth": 3,
+        "clip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "expenditure_mean",
+          "type": "quantitative",
+          "scale": {"domain":[2000, 15000]}
+        },
+        "x2": {
+          "field": "income_mean"
+        }
+      },
+      "params": [
+        {
+          "name": "zoomPan",
+          "select": {
+            "type": "interval",
+            "encodings": [
+              "x"
+            ]
+          },
+          "bind": "scales"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "fold": [
+            "income_mean",
+            "expenditure_mean"
+          ],
+          "as": [
+            "measure",
+            "amount"
+          ]
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 90,
+        "opacity": 1,
+        "clip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "amount",
+          "type": "quantitative",
+          "title": "Average household, RM per month",
+          "scale": {"domain": [2000, 15000]}
+        },
+        "color": {
+          "field": "measure",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "income_mean",
+              "expenditure_mean"
+            ],
+            "range": [
+              "#73A5CA",
+              "#930031"
+            ]
+          },
+          "legend": {
+            "title": null,
+            "orient": "top",
+            "labelExpr": "datum.value == 'income_mean' ? 'Income' : 'Spending'"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "income_mean",
+            "type": "quantitative",
+            "title": "Income (RM)",
+            "format": ",.0f"
+          },
+          {
+            "field": "expenditure_mean",
+            "type": "quantitative",
+            "title": "Spending (RM)",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ]
+}

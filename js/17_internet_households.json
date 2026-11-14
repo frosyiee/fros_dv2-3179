@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 400,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/household_internet_access.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "proportion": "number",
+        "date": "string"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.state == 'Malaysia' && datum.strata != 'overall'"
+    },
+    {
+      "calculate": "toNumber(substring(datum.date,0,4))",
+      "as": "yr"
+    },
+    {
+      "calculate": "datum.strata == 'urban' ? 'Urban' : 'Rural'",
+      "as": "area"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "point": true
+      },
+      "encoding": {
+        "x": {
+          "field": "yr",
+          "type": "quantitative",
+          "title": null,
+          "axis": {
+            "format": "d",
+            "tickMinStep": 1
+          }
+        },
+        "y": {
+          "field": "proportion",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              70,
+              100
+            ]
+          },
+          "title": "%"
+        },
+        "color": {
+          "field": "area",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Urban",
+              "Rural"
+            ],
+            "range": [
+              "#930031",
+              "#73A5CA"
+            ]
+          },
+          "legend": {
+            "orient": "top",
+            "title": null
+          }
+        },
+        "tooltip": [
+          {
+            "field": "yr",
+            "title": "Year"
+          },
+          {
+            "field": "area",
+            "title": "Area"
+          },
+          {
+            "field": "proportion",
+            "title": "%"
+          }
+        ]
+      }
+    }
+  ]
+}

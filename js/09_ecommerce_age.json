@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 420,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "data": {"url": "../data/ecommerce_age.csv"},
+  "encoding": {
+    "x": {
+      "field": "age_group", "type": "ordinal", "title": "Age group",
+      "sort": ["15-19", "20-24", "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "55-59", "60+"],
+      "axis": {"labelAngle": 0}
+    },
+    "y": {"field": "buy_online", "type": "quantitative", "title": "Bought online (% of internet users, 2025)", "scale": {"domain": [0, 100]}}
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "color": "#73A5CA"},
+      "encoding": {
+        "tooltip": [
+          {"field": "age_group", "type": "ordinal", "title": "Age group"},
+          {"field": "buy_online", "type": "quantitative", "title": "Bought online (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "dy": -8, "fontSize": 11, "color": "#1b2540"},
+      "encoding": {"text": {"field": "buy_online", "type": "quantitative", "format": ".0f"}}
+    }
+  ]
+}

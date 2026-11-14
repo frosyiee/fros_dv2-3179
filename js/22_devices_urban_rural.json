@@ -1,0 +1,99 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 400,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "data": {
+    "url": "data/internet_use_device.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "proportion": "number",
+        "date": "string"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.state == 'Malaysia' && datum.strata != 'overall' && substring(datum.date,0,4) == '2025'"
+    },
+    {
+      "calculate": "datum.device == 'mobile_phone' ? 'Mobile phone' : datum.device == 'tablet' ? 'Tablet' : datum.device == 'computer' ? 'Computer' : 'Other'",
+      "as": "device_label"
+    },
+    {
+      "calculate": "datum.strata == 'urban' ? 'Urban' : 'Rural'",
+      "as": "area"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "device_label",
+      "type": "nominal",
+      "sort": [
+        "Mobile phone",
+        "Computer",
+        "Tablet",
+        "Other"
+      ],
+      "title": null,
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "xOffset": {
+      "field": "area",
+      "sort": [
+        "Urban",
+        "Rural"
+      ]
+    },
+    "y": {
+      "field": "proportion",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      },
+      "title": "% of internet users"
+    },
+    "color": {
+      "field": "area",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Urban",
+          "Rural"
+        ],
+        "range": [
+          "#930031",
+          "#73A5CA"
+        ]
+      },
+      "legend": {
+        "orient": "top",
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "device_label",
+        "title": "Device"
+      },
+      {
+        "field": "area",
+        "title": "Area"
+      },
+      {
+        "field": "proportion",
+        "title": "%"
+      }
+    ]
+  }
+}

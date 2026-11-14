@@ -1,0 +1,219 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "right": 5,
+    "left": 5,
+    "top": 10,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/cpi_2d_annual.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "index": "number",
+        "division": "string",
+        "date": "string"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(substring(datum.date,0,4))",
+      "as": "yr"
+    },
+    {
+      "filter": "datum.yr >= 2010"
+    },
+    {
+      "calculate": "{\"overall\": \"All items\", \"01\": \"Food & beverages\", \"02\": \"Alcohol & tobacco\", \"03\": \"Clothing & footwear\", \"04\": \"Housing, water, electricity & fuel\", \"05\": \"Household equipment & maintenance\", \"06\": \"Health\", \"07\": \"Transport\", \"08\": \"Information & communication\", \"09\": \"Recreation, sport & culture\", \"10\": \"Education\", \"11\": \"Restaurants & accommodation\", \"12\": \"Insurance & financial services\", \"13\": \"Personal care & other goods/services\"}[datum.division]",
+      "as": "name"
+    },
+    {
+      "window": [
+        {
+          "op": "first_value",
+          "field": "index",
+          "as": "base"
+        }
+      ],
+      "groupby": [
+        "name"
+      ],
+      "sort": [
+        {
+          "field": "yr"
+        }
+      ],
+      "frame": [
+        null,
+        null
+      ]
+    },
+    {
+      "calculate": "datum.index / datum.base * 100",
+      "as": "rebased"
+    }
+  ],
+  "layer": [
+    {
+      "params": [
+        {
+            "name": "hover",
+            "select": {
+            "type": "point",
+            "fields": ["name"],
+            "on": "pointerover",
+            "clear": "pointerout"
+            }
+        },
+        {
+            "name": "zoomPan",
+            "select": {
+            "type": "interval",
+            "encodings": ["x", "y"]
+            },
+            "bind": "scales"
+        }
+        ],
+      
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone",
+        "clip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "yr",
+          "type": "quantitative",
+          "title": null,
+          "scale": {
+            "nice": false
+          },
+          "axis": {
+            "format": "d",
+            "values": [
+              2010,
+              2013,
+              2016,
+              2019,
+              2022,
+              2025
+            ]
+          }
+        },
+        "y": {
+          "field": "rebased",
+          "type": "quantitative",
+          "title": "Prices (2010 = 100)",
+          "scale": {
+            "zero": false
+          }
+        },
+        "detail": {
+          "field": "name",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": [
+            {
+              "param": "hover",
+              "empty": false,
+              "value": "#d1362b"
+            },
+            {
+              "test": "datum.name == 'All items'",
+              "value": "#1b2540"
+            }
+          ],
+          "value": "#B4E4D6"
+        },
+        "strokeWidth": {
+          "condition": [
+            {
+              "param": "hover",
+              "empty": false,
+              "value": 3.5
+            },
+            {
+              "test": "datum.name == 'All items'",
+              "value": 3
+            }
+          ],
+          "value": 1.5
+        },
+        "tooltip": [
+          {
+            "field": "name",
+            "type": "nominal",
+            "title": "Category"
+          },
+          {
+            "field": "yr",
+            "type": "quantitative",
+            "title": "Year",
+            "format": "d"
+          },
+          {
+            "field": "rebased",
+            "type": "quantitative",
+            "title": "Index (2010 = 100)",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.yr == 2025"
+        },
+        {
+          "filter": {
+            "field": "name",
+            "oneOf": [
+              "All items",
+              "Alcohol & tobacco",
+              "Food & beverages",
+              "Restaurants & accommodation",
+              "Clothing & footwear",
+              "Information & communication"
+            ]
+          }
+        },
+        {
+          "calculate": "datum.rebased + (datum.name == 'Restaurants & accommodation' ? -4 : datum.name == 'Food & beverages' ? 3 : 0)",
+          "as": "ylab"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "fontSize": 11,
+        "color": "#1b2540",
+        "clip": false
+      },
+      "encoding": {
+        "x": {
+          "field": "yr",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "ylab",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "name",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

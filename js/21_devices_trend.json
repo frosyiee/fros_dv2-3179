@@ -1,0 +1,131 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 400,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "right": 5,
+    "left": 5,
+    "top": 10,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/internet_use_device.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "proportion": "number",
+        "date": "string"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.state == 'Malaysia' && datum.strata == 'overall'"
+    },
+    {
+      "calculate": "toNumber(substring(datum.date,0,4))",
+      "as": "yr"
+    },
+    {
+      "calculate": "datum.device == 'mobile_phone' ? 'Mobile phone' : datum.device == 'tablet' ? 'Tablet' : datum.device == 'computer' ? 'Computer' : 'Other'",
+      "as": "device_label"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "yr",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "format": "d",
+        "tickMinStep": 1
+      }
+    },
+    "y": {
+      "field": "proportion",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      },
+      "title": "% of internet users"
+    },
+    "color": {
+      "field": "device_label",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "domain": [
+          "Mobile phone",
+          "Computer",
+          "Tablet",
+          "Other"
+        ],
+        "range": [
+          "#1b2540",
+          "#0F42C0",
+          "#FF933E",
+          "#BC0202"
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "point": true
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "yr",
+            "title": "Year"
+          },
+          {
+            "field": "device_label",
+            "title": "Device"
+          },
+          {
+            "field": "proportion",
+            "title": "%"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "max",
+              "field": "yr",
+              "as": "last"
+            }
+          ]
+        },
+        {
+          "filter": "datum.yr == datum.last"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "device_label"
+        }
+      }
+    }
+  ]
+}

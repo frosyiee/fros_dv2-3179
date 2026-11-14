@@ -1,0 +1,144 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "right": 6,
+    "left": 5,
+    "top": 10,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/ict_activities_by_age_2025.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "value": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.age_group != 'Total'"
+    },
+    {
+      "filter": {
+        "field": "activity",
+        "oneOf": [
+          "Internet banking",
+          "Buying through e-commerce",
+          "Ordering goods or services (not e-commerce)",
+          "Booking travel or accommodation",
+          "Selling through e-commerce"
+        ]
+      }
+    },
+    {
+      "calculate": "datum.activity == 'Ordering goods or services (not e-commerce)' ? 'Other online orders' : datum.activity == 'Buying through e-commerce' ? 'Buying (e-commerce)' : datum.activity == 'Selling through e-commerce' ? 'Selling (e-commerce)' : datum.activity == 'Booking travel or accommodation' ? 'Booking travel' : datum.activity",
+      "as": "short"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "age_group",
+      "type": "ordinal",
+      "sort": [
+        "15-19",
+        "20-24",
+        "25-29",
+        "30-34",
+        "35-39",
+        "40-44",
+        "45-49",
+        "50-54",
+        "55-59",
+        "60+"
+      ],
+      "title": "Age group",
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      },
+      "title": "% of internet users who did this in 2025"
+    },
+    "color": {
+      "field": "activity",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "domain": [
+          "Internet banking",
+          "Buying through e-commerce",
+          "Ordering goods or services (not e-commerce)",
+          "Booking travel or accommodation",
+          "Selling through e-commerce"
+        ],
+        "range": [
+          "#1b2540",
+          "#0F42C0",
+          "#FF933E",
+          "#FF6082",
+          "#BC0202"
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "point": true
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "activity",
+            "title": "Activity"
+          },
+          {
+            "field": "age_group",
+            "title": "Age"
+          },
+          {
+            "field": "value",
+            "title": "%"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.age_group == '60+'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 11,
+        "limit": 140
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

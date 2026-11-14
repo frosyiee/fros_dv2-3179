@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "padding": {"right": 5, "left": 5, "top": 5, "bottom": 5},
+  "data": {"url": "../data/income_expenditure_state.csv"},
+  "layer": [
+    {
+      "params": [
+        {"name": "hover", "select": {"type": "point", "fields": ["state"], "on": "pointerover", "clear": "pointerout"}}
+      ],
+      "mark": {"type": "line", "point": {"filled": true, "size": 40}},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal", "title": null, "axis": {"labelAngle": 0}, "scale": {"paddingOuter": 0.3}},
+        "y": {"field": "spend_pct_of_income", "type": "quantitative", "title": "Share of income spent (%)", "scale": {"zero": false}},
+        "detail": {"field": "state", "type": "nominal"},
+        "color": {
+          "condition": [
+            {"param": "hover", "empty": false, "value": "#09251C"},
+            {"test": "datum.state == 'W.P. Labuan' || datum.state == 'Terengganu' || datum.state == 'Selangor'", "value": "#09251C"}
+          ],
+          "value": "#B4E4D6"
+        },
+        "strokeWidth": {"condition": {"param": "hover", "empty": false, "value": 3.5}, "value": 1.5},
+        "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "spend_pct_of_income", "type": "quantitative", "title": "Income spent (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.year == 2024 && (datum.state == 'W.P. Labuan' || datum.state == 'Terengganu' || datum.state == 'Selangor')"}
+      ],
+      "mark": {"type": "text", "align": "left", "dx": 8, "fontWeight": "bold", "color": "#1b2540"},
+      "encoding": {
+        "x": {"field": "year", "type": "ordinal"},
+        "y": {"field": "spend_pct_of_income", "type": "quantitative"},
+        "text": {"field": "state"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data/cpi_index_state.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "index": "number",
+        "index_rebased": "number",
+        "change_since_2019_pct": "number",
+        "division": "string",
+        "date": "string"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.division == '01' || datum.division == '04' || datum.division == 'overall'"
+    },
+    {
+      "calculate": "toNumber(substring(datum.date,0,4)) + (toNumber(substring(datum.date,5,7)) - 1) / 12",
+      "as": "yr"
+    },
+    {
+      "calculate": "datum.division == '01' ? 'Food & beverages' : datum.division == '04' ? 'Housing, water, electricity & fuel' : 'All items'",
+      "as": "series"
+    },
+    {
+      "calculate": "datum.division == '01' ? datum.change_since_2019_pct : null",
+      "as": "food_chg"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "max",
+          "field": "food_chg",
+          "as": "sortkey"
+        }
+      ],
+      "groupby": [
+        "state"
+      ]
+    }
+  ],
+  "columns": 4,
+  "facet": {
+    "field": "state",
+    "type": "nominal",
+    "sort": {
+      "field": "sortkey",
+      "op": "max",
+      "order": "descending"
+    },
+    "title": null,
+    "header": {
+      "labelFontSize": 12,
+      "labelFontWeight": "bold",
+      "labelAnchor": "start",
+      "labelPadding": 4
+    }
+  },
+  "spec": {
+    "width": 195,
+    "height": 105,
+    "mark": {
+      "type": "line",
+      "clip": true
+    },
+    "encoding": {
+      "x": {
+        "field": "yr",
+        "type": "quantitative",
+        "scale": {
+          "domain": [
+            2019,
+            2026.7
+          ],
+          "nice": false
+        },
+        "title": null,
+        "axis": {
+          "values": [
+            2020,
+            2022,
+            2024,
+            2026
+          ],
+          "format": "d",
+          "labelFontSize": 10
+        }
+      },
+      "y": {
+        "field": "index_rebased",
+        "type": "quantitative",
+        "scale": {
+          "domain": [
+            88,
+            135
+          ]
+        },
+        "title": "January 2019 = 100",
+        "axis": {
+          "values": [
+            90,
+            100,
+            110,
+            120,
+            130
+          ]
+        }
+      },
+      "color": {
+        "field": "series",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "Food & beverages",
+            "Housing, water, electricity & fuel",
+            "All items"
+          ],
+          "range": [
+            "#086288",
+            "#97D7FF",
+            "#9aa0a6"
+          ]
+        },
+        "legend": {
+          "orient": "top",
+          "title": null,
+          "columns": 3,
+          "symbolType": "stroke",
+          "labelLimit": 320,
+          "columnPadding": 16
+        }
+      },
+      "strokeDash": {
+        "condition": {
+          "test": "datum.series == 'All items'",
+          "value": [
+            4,
+            3
+          ]
+        },
+        "value": [
+          1,
+          0
+        ]
+      },
+      "strokeWidth": {
+        "condition": {
+          "test": "datum.series == 'All items'",
+          "value": 1.5
+        },
+        "value": 2.2
+      },
+      "tooltip": [
+        {
+          "field": "state",
+          "title": "State"
+        },
+        {
+          "field": "series",
+          "title": "Category"
+        },
+        {
+          "field": "date",
+          "title": "Month"
+        },
+        {
+          "field": "index_rebased",
+          "title": "Index (Jan 2019 = 100)",
+          "format": ".1f"
+        }
+      ]
+    }
+  },
+  "resolve": {
+    "scale": {
+      "x": "shared",
+      "y": "shared"
+    }
+  }
+}
+
+        
