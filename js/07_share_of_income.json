@@ -4,7 +4,7 @@
   "height": 440,
   "autosize": {"type": "fit", "contains": "padding"},
   "padding": {"right": 5, "left": 5, "top": 5, "bottom": 5},
-  "data": {"url": "../data/income_expenditure_state.csv"},
+  "data": {"url": "data/income_expenditure_state.csv"},
   "layer": [
     {
       "params": [

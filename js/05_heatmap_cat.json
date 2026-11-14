@@ -3,7 +3,7 @@
   "width": "container",
   "height": 470,
   "autosize": {"type": "fit", "contains": "padding"},
-  "data": {"url": "../data/cpi_index_state.csv"},
+  "data": {"url": "data/cpi_index_state.csv"},
   "transform": [
     {"filter": "datum.division != 'overall'"},
     {"joinaggregate": [{"op": "max", "field": "date", "as": "last_date"}]},

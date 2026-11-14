@@ -26,12 +26,12 @@
       "mark": {"type": "geoshape", "fill": "#d9dbe0", "stroke": "#f3f5ef", "strokeWidth": 0.8}
     },
     {
-      "data": {"url": "../data/state_summary.csv"},
+      "data": {"url": "data/state_summary.csv"},
       "transform": [
         {
           "lookup": "map_name",
           "from": {
-            "data": {"url": "../data/malaysia_states.topojson", "format": {"type": "topojson", "feature": "MYSADM1gbOpen"}},
+            "data": {"url": "data/malaysia_states.topojson", "format": {"type": "topojson", "feature": "MYSADM1gbOpen"}},
             "key": "properties.shapeName",
             "fields": ["geometry"]
           }
@@ -52,7 +52,7 @@
       }
     },
     {
-      "data": {"url": "../data/malaysia_states.topojson", "format": {"type": "topojson", "feature": "MYS_outline"}},
+      "data": {"url": "data/malaysia_states.topojson", "format": {"type": "topojson", "feature": "MYS_outline"}},
       "mark": {"type": "geoshape", "fill": null, "stroke": "#565656", "strokeWidth": 1}
     }, 
         {

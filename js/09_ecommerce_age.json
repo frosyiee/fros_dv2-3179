@@ -3,7 +3,7 @@
   "width": "container",
   "height": 420,
   "autosize": {"type": "fit", "contains": "padding"},
-  "data": {"url": "../data/ecommerce_age.csv"},
+  "data": {"url": "data/ecommerce_age.csv"},
   "encoding": {
     "x": {
       "field": "age_group", "type": "ordinal", "title": "Age group",
