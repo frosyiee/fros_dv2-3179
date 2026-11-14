@@ -18,7 +18,7 @@ body{
     font:400 1.0625rem/1.7 "DM Sans",system-ui,sans-serif
 }
 
-/* fornts for headings*/
+/* fonts for headings*/
 h1{
     font-family:"DM Serif Text",Georgia,serif
 } 
@@ -103,8 +103,9 @@ h2{
     font-weight:600
 }
 .lead{
-    max-width:62ch;
-    margin:0 0 2rem
+    max-width:100ch;
+    margin:0 0 2rem;
+    text-align: justify;
 }
 
 /* chart grid and figures */
